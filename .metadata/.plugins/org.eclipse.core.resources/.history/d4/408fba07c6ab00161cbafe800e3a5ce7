@@ -1,6 +1,0 @@
-package com.letattung.async.method.invocation;
-
-public interface AsyncCallback<T> {
-
-	 void onComplete(T value, Optional<Exception> ex);
-}
