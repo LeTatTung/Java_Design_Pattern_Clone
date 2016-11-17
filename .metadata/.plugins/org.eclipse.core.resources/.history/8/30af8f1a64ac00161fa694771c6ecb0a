@@ -1,0 +1,37 @@
+package com.letattung.builder;
+
+public final class Hero {
+
+	private final String name;
+	private final Armor armor;
+	private final HairColor hairColor;
+	private final HairType hairType;
+	private final Profession profession;
+	private final Weapon weapon;
+	
+	private Hero(Builder builder){
+		this.name = builder.name;
+		this.armor = builder.armor;
+		this.hairColor = builder.hairColor;
+		this.hairType = builder.hairType;
+		this.profession = builder.profession;
+		this.weapon = builder.weapon;
+	}
+	public static class Builder{
+		private final String name;
+		private final Profession profession;
+		private Armor armor;
+		private HairColor hairColor;
+		private HairType hairType;
+		private Weapon weapon;
+		
+		public Builder(Profession profession, String name) {
+			// TODO Auto-generated constructor stub
+			if (profession == null || name == null) {
+			        throw new IllegalArgumentException("profession and name can not be null");
+			     }
+			this.profession = profession;
+			this.name = name;
+		}
+	}
+}

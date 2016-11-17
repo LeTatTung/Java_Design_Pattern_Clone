@@ -1,2 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.letattung.bridge.MagicWeaponImpl"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.letattung.bridge.SoulEatingMagicWeaponImpl"/>
+<fullyQualifiedTypeName name="com.letattung.bridge.BlindingMagicWeaponImpl"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+<fullyQualifiedTypeName name="com.letattung.bridge.MagicWeapon"/>
+<fullyQualifiedTypeName name="com.letattung.bridge.FlyingMagicWeaponImpl"/>
+<fullyQualifiedTypeName name="com.letattung.bridge.BlindingMagicWeapon"/>
+<fullyQualifiedTypeName name="com.letattung.bridge.Excalibur"/>
+<fullyQualifiedTypeName name="com.letattung.bridge.FlyingMagicWeapon"/>
+<fullyQualifiedTypeName name="com.letattung.bridge.Mjollnir"/>
+<fullyQualifiedTypeName name="com.letattung.bridge.SoulEatingMagicWeapon"/>
+<fullyQualifiedTypeName name="com.letattung.bridge.Stormbringer"/>
+<fullyQualifiedTypeName name="com.letattung.builder.Profession"/>
+<fullyQualifiedTypeName name="com.letattung.builder.HairType"/>
+<fullyQualifiedTypeName name="com.letattung.builder.HairColor"/>
+<fullyQualifiedTypeName name="com.letattung.builder.Armor"/>
+<fullyQualifiedTypeName name="com.letattung.builder.Hero.Builder"/>
+<fullyQualifiedTypeName name="com.letattung.builder.Weapon"/>
+<fullyQualifiedTypeName name="com.letattung.builder.Hero"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+</qualifiedTypeNameHistroy>
