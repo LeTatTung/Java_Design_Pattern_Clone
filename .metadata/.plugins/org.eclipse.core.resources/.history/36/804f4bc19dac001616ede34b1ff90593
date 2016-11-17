@@ -1,0 +1,6 @@
+package com.letattung.business.delegate;
+
+public enum ServiceType {
+
+	EJB, JMS;
+}

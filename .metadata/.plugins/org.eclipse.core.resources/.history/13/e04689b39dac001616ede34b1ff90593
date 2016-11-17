@@ -1,0 +1,14 @@
+package com.letattung.business.delegate;
+
+public class Client {
+
+	private BusinessDelegate businessDelegate;
+	
+	public Client(BusinessDelegate businessDelegate) {
+		// TODO Auto-generated constructor stub
+		this.businessDelegate = businessDelegate;
+	}
+	public void doTask(){
+		businessDelegate.doTask();
+	}
+}

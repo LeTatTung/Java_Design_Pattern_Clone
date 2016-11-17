@@ -1,0 +1,6 @@
+package com.letattung.business.delegate;
+
+public interface BusinessService {
+
+	void doProcessing();
+}
