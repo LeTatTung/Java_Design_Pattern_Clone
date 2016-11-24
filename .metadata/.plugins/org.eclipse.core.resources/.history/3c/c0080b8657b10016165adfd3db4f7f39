@@ -1,0 +1,36 @@
+package com.letattung.caching;
+
+import java.text.ParseException;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.bson.Document;
+
+import com.mongodb.MongoClient;
+import com.mongodb.client.FindIterable;
+import com.mongodb.client.MongoDatabase;
+import com.mongodb.client.model.DBCollectionUpdateOptions;
+
+public final class DbManager {
+
+	private static MongoClient mongoClient;
+	private static MongoDatabase db;
+	private static boolean useMongoDB;
+	
+	private static Map<String, UserAccount> vitualDB;
+	private DbManager(){
+		
+	}
+	// create DB
+	public static void createVitualDb(){
+		useMongoDB = false;
+		vitualDB = new HashMap<>();
+	}
+	// connect to DB
+	public static void connect() throws ParseException{
+		useMongoDB = true;
+		mongoClient = new MongoClient();
+		db = mongoClient.getDatabase("test");
+	}
+	
+}

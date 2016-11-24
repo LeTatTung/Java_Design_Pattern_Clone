@@ -1,0 +1,5 @@
+package com.letattung.caching;
+
+public class UserAccount {
+
+}

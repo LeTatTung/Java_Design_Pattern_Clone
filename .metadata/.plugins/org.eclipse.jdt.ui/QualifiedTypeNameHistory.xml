@@ -21,4 +21,27 @@
 <fullyQualifiedTypeName name="com.letattung.builder.Weapon"/>
 <fullyQualifiedTypeName name="com.letattung.builder.Hero"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="com.letattung.business.delegate.BusinessService"/>
+<fullyQualifiedTypeName name="com.letattung.business.delegate.BusinessDelegate"/>
+<fullyQualifiedTypeName name="com.letattung.business.delegate.BusinessLookup"/>
+<fullyQualifiedTypeName name="com.letattung.business.delegate.EjbService"/>
+<fullyQualifiedTypeName name="com.letattung.business.delegate.JmsService"/>
+<fullyQualifiedTypeName name="com.letattung.business.delegate.Client"/>
+<fullyQualifiedTypeName name="com.letattung.business.delegate.ServiceType"/>
+<fullyQualifiedTypeName name="com.mongodb.client.model.DBCollectionUpdateOptions"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.letattung.caching.CacheStore"/>
+<fullyQualifiedTypeName name="com.letattung.caching.LruCache"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="com.letattung.caching.DbManager"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.mongodb.MongoClient"/>
+<fullyQualifiedTypeName name="com.mongodb.client.FindIterable"/>
+<fullyQualifiedTypeName name="com.letattung.caching.UserAccount"/>
+<fullyQualifiedTypeName name="java.text.ParseException"/>
+<fullyQualifiedTypeName name="org.bson.Document"/>
 </qualifiedTypeNameHistroy>

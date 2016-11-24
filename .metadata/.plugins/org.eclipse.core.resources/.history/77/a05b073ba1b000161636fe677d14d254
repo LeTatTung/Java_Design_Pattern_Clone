@@ -1,0 +1,15 @@
+package com.letattung.caching;
+
+import org.bson.Document;
+
+import com.mongodb.MongoClient;
+import com.mongodb.client.FindIterable;
+import com.mongodb.client.MongoDatabase;
+import com.mongodb.client.model.DBCollectionUpdateOptions;
+
+public final class DbManager {
+
+	private static MongoClient mongoClient;
+	private static MongoDatabase db;
+	private static boolean useMongoDB;
+}

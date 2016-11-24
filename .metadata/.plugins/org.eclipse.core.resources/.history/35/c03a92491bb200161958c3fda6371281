@@ -1,0 +1,40 @@
+package com.letattung.caching;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class CacheStore {
+
+	private static final Logger LOGGER = LoggerFactory.getLogger(CacheStore.class);
+	static LruCache cache;
+	private CacheStore(){
+		
+	}
+	// int cache capacity
+	public static void intCapacity(int capacity){
+		if(cache == null){
+			cache = new LruCache(capacity);
+		}else{
+			cache.setCapacity(capacity);
+		}
+	}
+	 //Get user account using read-through cache
+	 public static UserAccount readThrough(String userId){
+		if(cache.contains(userId)){
+			LOGGER.info("#Cache Hit#");
+			return cache.get(userId);
+		} 
+		LOGGER.info("# Cache Miss!");
+	    UserAccount userAccount = DbManager.readFromDb(userId);
+	    cache.set(userId, userAccount);
+	    return userAccount;
+	 }
+	 public static void writeThrough(UserAccount userAccount){
+		 if(cache.contains(userAccount.getUserId())){
+			 DbManager.updateDb(userAccount);
+		 }else{
+			 DbManager.writeToDb(userAccount);
+		 }
+		 cache.set(userAccount.getUserId(), userAccount);
+	 }
+}
