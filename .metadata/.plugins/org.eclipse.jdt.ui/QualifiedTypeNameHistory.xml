@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="com.letattung.bridge.MagicWeaponImpl"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.letattung.bridge.SoulEatingMagicWeaponImpl"/>
 <fullyQualifiedTypeName name="com.letattung.bridge.BlindingMagicWeaponImpl"/>
 <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
@@ -30,18 +29,25 @@
 <fullyQualifiedTypeName name="com.letattung.business.delegate.ServiceType"/>
 <fullyQualifiedTypeName name="com.mongodb.client.model.DBCollectionUpdateOptions"/>
 <fullyQualifiedTypeName name="java.util.logging.Logger"/>
-<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
-<fullyQualifiedTypeName name="org.slf4j.Logger"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="com.letattung.caching.CacheStore"/>
 <fullyQualifiedTypeName name="com.letattung.caching.LruCache"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="com.letattung.caching.DbManager"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="com.mongodb.MongoClient"/>
 <fullyQualifiedTypeName name="com.mongodb.client.FindIterable"/>
-<fullyQualifiedTypeName name="com.letattung.caching.UserAccount"/>
-<fullyQualifiedTypeName name="java.text.ParseException"/>
 <fullyQualifiedTypeName name="org.bson.Document"/>
+<fullyQualifiedTypeName name="java.text.ParseException"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="com.letattung.caching.CachingPolicy"/>
+<fullyQualifiedTypeName name="com.letattung.caching.DbManager"/>
+<fullyQualifiedTypeName name="com.letattung.caching.CacheStore"/>
+<fullyQualifiedTypeName name="com.letattung.caching.UserAccount"/>
+<fullyQualifiedTypeName name="java.util.logging.Level"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="com.letattung.caching.AppManager"/>
+<fullyQualifiedTypeName name="com.letattung.caching.App"/>
 </qualifiedTypeNameHistroy>

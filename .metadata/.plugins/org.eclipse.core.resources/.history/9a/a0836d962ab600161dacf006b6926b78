@@ -1,0 +1,6 @@
+package com.letattung.callback;
+
+public interface Callback {
+
+	void call();
+}
