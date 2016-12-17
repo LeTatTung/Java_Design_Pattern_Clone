@@ -1,5 +1,0 @@
-package com.letattung.caching;
-
-public class LruCache {
-
-}
