@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.letattung.bridge.Stormbringer"/>
 <fullyQualifiedTypeName name="com.letattung.builder.Profession"/>
 <fullyQualifiedTypeName name="com.letattung.builder.HairType"/>
 <fullyQualifiedTypeName name="com.letattung.builder.HairColor"/>
@@ -48,7 +47,6 @@
 <fullyQualifiedTypeName name="com.letattung.factorypattern1.Square"/>
 <fullyQualifiedTypeName name="com.letattung.factorypattern1.ShapeFactory"/>
 <fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.Shape"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.Circle"/>
 <fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.Square"/>
 <fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.Rectangle"/>
@@ -60,4 +58,6 @@
 <fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.ColorFactory"/>
 <fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.FactoryProducer"/>
 <fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.Color"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.letattung.singletonpattern1.SingleObject"/>
 </qualifiedTypeNameHistroy>
