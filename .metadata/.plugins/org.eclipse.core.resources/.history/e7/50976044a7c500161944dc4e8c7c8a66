@@ -1,0 +1,5 @@
+package com.letattung.prototypepattern1;
+
+public class Shape {
+
+}

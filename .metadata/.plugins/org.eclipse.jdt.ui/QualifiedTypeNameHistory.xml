@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.letattung.builder.Profession"/>
-<fullyQualifiedTypeName name="com.letattung.builder.HairType"/>
-<fullyQualifiedTypeName name="com.letattung.builder.HairColor"/>
-<fullyQualifiedTypeName name="com.letattung.builder.Armor"/>
-<fullyQualifiedTypeName name="com.letattung.builder.Hero.Builder"/>
-<fullyQualifiedTypeName name="com.letattung.builder.Weapon"/>
-<fullyQualifiedTypeName name="com.letattung.builder.Hero"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
-<fullyQualifiedTypeName name="com.letattung.business.delegate.BusinessService"/>
-<fullyQualifiedTypeName name="com.letattung.business.delegate.BusinessDelegate"/>
-<fullyQualifiedTypeName name="com.letattung.business.delegate.BusinessLookup"/>
-<fullyQualifiedTypeName name="com.letattung.business.delegate.EjbService"/>
-<fullyQualifiedTypeName name="com.letattung.business.delegate.JmsService"/>
 <fullyQualifiedTypeName name="com.letattung.business.delegate.Client"/>
 <fullyQualifiedTypeName name="com.letattung.business.delegate.ServiceType"/>
 <fullyQualifiedTypeName name="com.mongodb.client.model.DBCollectionUpdateOptions"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.letattung.caching.LruCache"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
@@ -58,6 +44,20 @@
 <fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.ColorFactory"/>
 <fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.FactoryProducer"/>
 <fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.Color"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.letattung.singletonpattern1.SingleObject"/>
+<fullyQualifiedTypeName name="com.letattung.builderpattern1.Wrapper"/>
+<fullyQualifiedTypeName name="com.letattung.builderpattern1.Packing"/>
+<fullyQualifiedTypeName name="com.letattung.builderpattern1.Bottle"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="com.letattung.builderpattern1.Burger"/>
+<fullyQualifiedTypeName name="com.letattung.builderpattern1.ColdDrink"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.letattung.builderpattern1.Item"/>
+<fullyQualifiedTypeName name="com.letattung.builderpattern1.VegBurger"/>
+<fullyQualifiedTypeName name="com.letattung.builderpattern1.Coke"/>
+<fullyQualifiedTypeName name="com.letattung.builderpattern1.Meal"/>
+<fullyQualifiedTypeName name="com.letattung.builderpattern1.ChickenBurger"/>
+<fullyQualifiedTypeName name="com.letattung.builderpattern1.Pepsi"/>
+<fullyQualifiedTypeName name="com.letattung.builderpattern1.MealBuilder"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
