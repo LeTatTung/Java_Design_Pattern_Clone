@@ -1,0 +1,14 @@
+package com.letattung.adapterpattern1;
+
+public class AudioPlayer implements MediaPlayer{
+
+	@Override
+	public void play(String audioType, String fileName) {
+		// TODO Auto-generated method stub
+		// ho tro san co de choi nhac mp3
+		if (audioType.equalsIgnoreCase("mp3")){
+			System.out.println("Playing mp3 file. Name: " +fileName);
+		}
+	}
+
+}

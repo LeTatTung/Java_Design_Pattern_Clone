@@ -1,4 +1,4 @@
-Mon Dec 19 13:36:36 ICT 2016
+Tue Dec 20 11:11:31 ICT 2016
 ERROR org.eclipse.rse.core  Unexpected Exception
 java.net.UnknownHostException: letattung: letattung: Name or service not known
 	at java.net.InetAddress.getLocalHost(InetAddress.java:1505)
