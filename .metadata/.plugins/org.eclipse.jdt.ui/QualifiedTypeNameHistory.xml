@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.bson.Document"/>
-<fullyQualifiedTypeName name="java.text.ParseException"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
-<fullyQualifiedTypeName name="com.letattung.caching.CachingPolicy"/>
-<fullyQualifiedTypeName name="com.letattung.caching.DbManager"/>
 <fullyQualifiedTypeName name="com.letattung.caching.CacheStore"/>
 <fullyQualifiedTypeName name="com.letattung.caching.UserAccount"/>
 <fullyQualifiedTypeName name="java.util.logging.Level"/>
@@ -59,5 +53,11 @@
 <fullyQualifiedTypeName name="com.letattung.prototypepattern1.Rectangle"/>
 <fullyQualifiedTypeName name="com.letattung.prototypepattern1.Square"/>
 <fullyQualifiedTypeName name="com.letattung.prototypepattern1.ShapeCache"/>
+<fullyQualifiedTypeName name="com.letattung.adapterpattern1.AdvancedMediaPlayer"/>
+<fullyQualifiedTypeName name="com.letattung.adapterpattern1.VlcPlayer"/>
+<fullyQualifiedTypeName name="com.letattung.adapterpattern1.Mp4Player"/>
+<fullyQualifiedTypeName name="com.letattung.adapterpattern1.MediaPlayer"/>
+<fullyQualifiedTypeName name="com.letattung.adapterpattern1.MediaAdapter"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.letattung.adapterpattern1.AudioPlayer"/>
 </qualifiedTypeNameHistroy>
