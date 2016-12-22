@@ -1,0 +1,5 @@
+package com.letattung.filterpattern1;
+
+public class CriteriaMale {
+
+}
