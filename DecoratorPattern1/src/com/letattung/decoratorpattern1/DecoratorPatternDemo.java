@@ -6,16 +6,16 @@ public class DecoratorPatternDemo {
 
 	public static void main(String [] args){
 		
-		Shape cricle = new Cricle();
+		Shape Circle = new Circle();
 		Shape rectangle = new Rectangle();
 		
-		RedShapeDecorator redCricle = new RedShapeDecorator(new Cricle());
+		RedShapeDecorator redCircle = new RedShapeDecorator(new Circle());
 		RedShapeDecorator redRectangle = new RedShapeDecorator(new Rectangle());
 		
 		System.out.println("Circle with normal border");
-		cricle.draw();
-		System.out.println("\nCricle of red border");
-		redCricle.draw();
+		Circle.draw();
+		System.out.println("\nCircle of red border");
+		redCircle.draw();
 		
 		System.out.println("\nRectangle with normal border");
 		rectangle.draw();

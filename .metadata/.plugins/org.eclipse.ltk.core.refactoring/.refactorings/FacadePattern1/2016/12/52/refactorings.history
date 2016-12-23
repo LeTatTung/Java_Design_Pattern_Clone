@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.letattung.facadepattern1.Cricle&apos; to &apos;Circle&apos;&#x0A;- Original project: &apos;FacadePattern1&apos;&#x0A;- Original element: &apos;com.letattung.facadepattern1.Cricle&apos;&#x0A;- Renamed element: &apos;com.letattung.facadepattern1.Circle&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Cricle&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.letattung.facadepattern1{Cricle.java[Cricle" matchStrategy="1" name="Circle" qualified="false" references="true" similarDeclarations="false" stamp="1482483144679" textual="false" version="1.0"/>
+</session>
