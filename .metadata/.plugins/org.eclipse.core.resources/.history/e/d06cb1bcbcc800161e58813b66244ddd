@@ -1,0 +1,6 @@
+package com.letattung.decoratorpattern1;
+
+public interface Shape {
+
+	void draw();
+}
