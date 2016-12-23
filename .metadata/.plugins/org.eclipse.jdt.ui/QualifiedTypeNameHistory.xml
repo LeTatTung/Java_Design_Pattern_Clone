@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.letattung.callback.Callback"/>
-<fullyQualifiedTypeName name="com.letattung.callback.LambdasApp"/>
-<fullyQualifiedTypeName name="com.letattung.callback.Task"/>
 <fullyQualifiedTypeName name="java.util.logging.Logger"/>
 <fullyQualifiedTypeName name="org.slf4j.Logger"/>
 <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
@@ -31,7 +28,6 @@
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="com.letattung.builderpattern1.Burger"/>
 <fullyQualifiedTypeName name="com.letattung.builderpattern1.ColdDrink"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.letattung.builderpattern1.Item"/>
 <fullyQualifiedTypeName name="com.letattung.builderpattern1.VegBurger"/>
 <fullyQualifiedTypeName name="com.letattung.builderpattern1.Coke"/>
@@ -54,10 +50,14 @@
 <fullyQualifiedTypeName name="com.letattung.adapterpattern1.MediaPlayer"/>
 <fullyQualifiedTypeName name="com.letattung.adapterpattern1.MediaAdapter"/>
 <fullyQualifiedTypeName name="com.letattung.adapterpattern1.AudioPlayer"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.letattung.bridgepattern1.Shape"/>
 <fullyQualifiedTypeName name="com.letattung.bridgepattern1.DrawAPI"/>
 <fullyQualifiedTypeName name="com.letattung.bridgepattern1.RedCircle"/>
 <fullyQualifiedTypeName name="com.letattung.bridgepattern1.Circle"/>
 <fullyQualifiedTypeName name="com.letattung.bridgepattern1.GreenCircle"/>
+<fullyQualifiedTypeName name="com.letattung.filterpattern1.Criteria"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.letattung.filterpattern1.Person"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
