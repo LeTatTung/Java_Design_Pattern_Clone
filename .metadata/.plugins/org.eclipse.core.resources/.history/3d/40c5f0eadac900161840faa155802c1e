@@ -1,0 +1,5 @@
+package com.letattung.facadepattern;
+
+public class Rectangle {
+
+}

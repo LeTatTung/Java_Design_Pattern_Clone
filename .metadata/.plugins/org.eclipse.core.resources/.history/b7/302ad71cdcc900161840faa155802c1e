@@ -1,0 +1,6 @@
+package com.letattung.facadepattern;
+
+public interface Shape {
+
+	void draw();
+}

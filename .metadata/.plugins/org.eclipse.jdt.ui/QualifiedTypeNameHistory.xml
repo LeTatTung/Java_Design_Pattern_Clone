@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.letattung.factorypattern1.Rectangle"/>
-<fullyQualifiedTypeName name="com.letattung.factorypattern1.Square"/>
-<fullyQualifiedTypeName name="com.letattung.factorypattern1.ShapeFactory"/>
-<fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.Shape"/>
-<fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.Circle"/>
-<fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.Square"/>
 <fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.Rectangle"/>
 <fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.Blue"/>
 <fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.Green"/>
@@ -58,6 +52,12 @@
 <fullyQualifiedTypeName name="com.letattung.decoratorpattern1.Shape"/>
 <fullyQualifiedTypeName name="com.letattung.decoratorpattern1.RedShapeDecorator"/>
 <fullyQualifiedTypeName name="com.letattung.decoratorpattern1.Rectangle"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.letattung.decoratorpattern1.Cricle"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.letattung.facadepattern1.Cricle"/>
+<fullyQualifiedTypeName name="com.letattung.facadepattern1.Circle"/>
+<fullyQualifiedTypeName name="com.letattung.facadepattern1.Rectangle"/>
+<fullyQualifiedTypeName name="com.letattung.facadepattern1.Square"/>
+<fullyQualifiedTypeName name="com.letattung.facadepattern1.Shape"/>
+<fullyQualifiedTypeName name="com.letattung.facadepattern1.ShapeMaker"/>
 </qualifiedTypeNameHistroy>
