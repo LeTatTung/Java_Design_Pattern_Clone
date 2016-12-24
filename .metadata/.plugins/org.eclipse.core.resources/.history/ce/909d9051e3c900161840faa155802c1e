@@ -1,0 +1,9 @@
+package com.letattung.flyweightpattern;
+
+public class FlyweightPatternDemo {
+
+	private static final String colors[] = {"Red","White", "Blue", "Green", "Black"};
+	public static void main(String [] args){
+		
+	}
+}

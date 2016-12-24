@@ -1,0 +1,6 @@
+package com.letattung.flyweightpattern;
+
+public interface Shape {
+
+	void draw();
+}

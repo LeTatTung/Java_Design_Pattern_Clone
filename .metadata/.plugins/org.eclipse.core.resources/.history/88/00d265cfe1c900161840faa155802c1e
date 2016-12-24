@@ -1,0 +1,5 @@
+package com.letattung.flyweightpattern;
+
+public class FlyweightPatternDemo {
+
+}
