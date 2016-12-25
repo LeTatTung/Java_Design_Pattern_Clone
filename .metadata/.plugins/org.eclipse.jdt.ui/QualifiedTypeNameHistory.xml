@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.Rectangle"/>
-<fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.Blue"/>
-<fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.Green"/>
-<fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.Red"/>
-<fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.ShapeFactory"/>
-<fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.AbstractFactory"/>
-<fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.ColorFactory"/>
-<fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.FactoryProducer"/>
-<fullyQualifiedTypeName name="com.letattung.abstractfactorypattern1.Color"/>
 <fullyQualifiedTypeName name="com.letattung.singletonpattern1.SingleObject"/>
 <fullyQualifiedTypeName name="com.letattung.builderpattern1.Wrapper"/>
 <fullyQualifiedTypeName name="com.letattung.builderpattern1.Packing"/>
@@ -53,11 +44,20 @@
 <fullyQualifiedTypeName name="com.letattung.decoratorpattern1.RedShapeDecorator"/>
 <fullyQualifiedTypeName name="com.letattung.decoratorpattern1.Rectangle"/>
 <fullyQualifiedTypeName name="com.letattung.decoratorpattern1.Cricle"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.letattung.facadepattern1.Cricle"/>
 <fullyQualifiedTypeName name="com.letattung.facadepattern1.Circle"/>
 <fullyQualifiedTypeName name="com.letattung.facadepattern1.Rectangle"/>
 <fullyQualifiedTypeName name="com.letattung.facadepattern1.Square"/>
 <fullyQualifiedTypeName name="com.letattung.facadepattern1.Shape"/>
 <fullyQualifiedTypeName name="com.letattung.facadepattern1.ShapeMaker"/>
+<fullyQualifiedTypeName name="com.letattung.facadepattern.Circle"/>
+<fullyQualifiedTypeName name="com.letattung.facadepattern.Rectangle"/>
+<fullyQualifiedTypeName name="com.letattung.facadepattern.Square"/>
+<fullyQualifiedTypeName name="com.letattung.facadepattern.Shape"/>
+<fullyQualifiedTypeName name="com.letattung.facadepattern.ShapeMaker"/>
+<fullyQualifiedTypeName name="com.letattung.flyweightpattern.Shape"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.letattung.flyweightpattern.Circle"/>
+<fullyQualifiedTypeName name="com.letattung.flyweightpattern.ShapeFactory"/>
 </qualifiedTypeNameHistroy>

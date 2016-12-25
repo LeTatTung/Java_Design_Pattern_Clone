@@ -1,0 +1,6 @@
+package com.letattung.proxypattern;
+
+public interface Image {
+
+	void display();
+}
