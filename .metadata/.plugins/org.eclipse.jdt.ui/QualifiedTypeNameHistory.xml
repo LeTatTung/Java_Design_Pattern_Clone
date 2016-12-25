@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.letattung.singletonpattern1.SingleObject"/>
-<fullyQualifiedTypeName name="com.letattung.builderpattern1.Wrapper"/>
-<fullyQualifiedTypeName name="com.letattung.builderpattern1.Packing"/>
-<fullyQualifiedTypeName name="com.letattung.builderpattern1.Bottle"/>
-<fullyQualifiedTypeName name="com.letattung.builderpattern1.Burger"/>
-<fullyQualifiedTypeName name="com.letattung.builderpattern1.ColdDrink"/>
-<fullyQualifiedTypeName name="com.letattung.builderpattern1.Item"/>
-<fullyQualifiedTypeName name="com.letattung.builderpattern1.VegBurger"/>
 <fullyQualifiedTypeName name="com.letattung.builderpattern1.Coke"/>
 <fullyQualifiedTypeName name="com.letattung.builderpattern1.Meal"/>
 <fullyQualifiedTypeName name="com.letattung.builderpattern1.ChickenBurger"/>
@@ -57,7 +49,15 @@
 <fullyQualifiedTypeName name="com.letattung.facadepattern.ShapeMaker"/>
 <fullyQualifiedTypeName name="com.letattung.flyweightpattern.Shape"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.letattung.flyweightpattern.Circle"/>
 <fullyQualifiedTypeName name="com.letattung.flyweightpattern.ShapeFactory"/>
+<fullyQualifiedTypeName name="com.letattung.proxypattern.Image"/>
+<fullyQualifiedTypeName name="com.letattung.proxypattern.RealImage"/>
+<fullyQualifiedTypeName name="com.letattung.proxypattern.ProxyImage"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.letattung.chainofresponsibilitypattern1.ErrorLogger"/>
+<fullyQualifiedTypeName name="com.letattung.chainofresponsibilitypattern1.FileLogger"/>
+<fullyQualifiedTypeName name="com.letattung.chainofresponsibilitypattern1.ChainPatternDemo"/>
+<fullyQualifiedTypeName name="com.letattung.chainofresponsibilitypattern1.ConsoleLogger"/>
+<fullyQualifiedTypeName name="com.letattung.chainofresponsibilitypattern1.AbstractLogger"/>
 </qualifiedTypeNameHistroy>
