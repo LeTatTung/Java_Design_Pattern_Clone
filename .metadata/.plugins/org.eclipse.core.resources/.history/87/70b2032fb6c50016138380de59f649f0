@@ -1,5 +1,0 @@
-package com.letattung.prototypepattern1;
-
-public abstract class Shape implements Cloneable{
-
-}

@@ -1,0 +1,13 @@
+package com.letattung.iteratorpattern1;
+
+public class IteratorPatternDemo {
+
+	public static void main(){
+		
+		NameRepository nameRepository = new NameRepository();
+		for (Iterator iterator = nameRepository.getIterator();iterator.hasNext();){
+			String name = iterator.next();
+			System.out.println("Name: " +name);
+		}
+	}
+}

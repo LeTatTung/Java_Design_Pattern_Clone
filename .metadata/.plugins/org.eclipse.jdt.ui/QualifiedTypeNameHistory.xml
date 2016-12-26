@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.Object"/>
-<fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
-<fullyQualifiedTypeName name="com.letattung.prototypepattern1.Shape"/>
-<fullyQualifiedTypeName name="javax.print.attribute.HashAttributeSet"/>
 <fullyQualifiedTypeName name="java.util.Hashtable"/>
 <fullyQualifiedTypeName name="com.letattung.prototypepattern1.Circle"/>
 <fullyQualifiedTypeName name="com.letattung.prototypepattern1.Rectangle"/>
@@ -53,11 +49,15 @@
 <fullyQualifiedTypeName name="com.letattung.chainofresponsibilitypattern1.ChainPatternDemo"/>
 <fullyQualifiedTypeName name="com.letattung.chainofresponsibilitypattern1.ConsoleLogger"/>
 <fullyQualifiedTypeName name="com.letattung.chainofresponsibilitypattern1.AbstractLogger"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.letattung.commandpattern1.Order"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.letattung.commandpattern1.Stock"/>
 <fullyQualifiedTypeName name="com.letattung.commandpattern1.BuyStock"/>
 <fullyQualifiedTypeName name="com.letattung.commandpattern1.SellStock"/>
 <fullyQualifiedTypeName name="com.letattung.commandpattern1.Broker"/>
+<fullyQualifiedTypeName name="com.letattung.interpreterpattern1.AndExpression"/>
+<fullyQualifiedTypeName name="com.letattung.interpreterpattern1.TerminalExpression"/>
+<fullyQualifiedTypeName name="com.letattung.interpreterpattern1.OrExpression"/>
+<fullyQualifiedTypeName name="com.letattung.interpreterpattern1.Expression"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
