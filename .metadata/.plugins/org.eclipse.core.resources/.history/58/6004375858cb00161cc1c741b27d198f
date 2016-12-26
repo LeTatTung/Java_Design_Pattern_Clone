@@ -1,0 +1,5 @@
+package com.letattung.interpreterpattern1;
+
+public class OrExpression {
+
+}
