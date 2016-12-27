@@ -1,0 +1,5 @@
+package com.letattung.observerpattern1;
+
+public class HexaObserver {
+
+}
