@@ -1,0 +1,5 @@
+package com.letattung.mementopattern1;
+
+public class Memento {
+
+}
