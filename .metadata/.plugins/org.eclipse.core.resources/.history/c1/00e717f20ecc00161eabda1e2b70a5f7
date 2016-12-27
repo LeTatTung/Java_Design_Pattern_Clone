@@ -1,0 +1,5 @@
+package com.letattung.mediatorpattern1;
+
+public class User {
+
+}

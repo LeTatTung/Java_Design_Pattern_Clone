@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Hashtable"/>
-<fullyQualifiedTypeName name="com.letattung.prototypepattern1.Circle"/>
-<fullyQualifiedTypeName name="com.letattung.prototypepattern1.Rectangle"/>
-<fullyQualifiedTypeName name="com.letattung.prototypepattern1.Square"/>
 <fullyQualifiedTypeName name="com.letattung.prototypepattern1.ShapeCache"/>
 <fullyQualifiedTypeName name="com.letattung.adapterpattern1.AdvancedMediaPlayer"/>
 <fullyQualifiedTypeName name="com.letattung.adapterpattern1.VlcPlayer"/>
@@ -59,5 +55,9 @@
 <fullyQualifiedTypeName name="com.letattung.interpreterpattern1.TerminalExpression"/>
 <fullyQualifiedTypeName name="com.letattung.interpreterpattern1.OrExpression"/>
 <fullyQualifiedTypeName name="com.letattung.interpreterpattern1.Expression"/>
+<fullyQualifiedTypeName name="com.letattung.iteratorpattern1.Container"/>
+<fullyQualifiedTypeName name="com.letattung.iteratorpattern1.NameRepository.NameIterator"/>
+<fullyQualifiedTypeName name="com.letattung.iteratorpattern1.NameRepository"/>
+<fullyQualifiedTypeName name="com.letattung.iteratorpattern1.Iterator"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
