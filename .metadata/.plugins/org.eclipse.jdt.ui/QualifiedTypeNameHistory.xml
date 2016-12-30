@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
-<fullyQualifiedTypeName name="com.letattung.compositepattern1.Employee"/>
-<fullyQualifiedTypeName name="com.letattung.decoratorpattern1.ShapeDecorator"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="com.letattung.decoratorpattern1.Shape"/>
 <fullyQualifiedTypeName name="com.letattung.decoratorpattern1.RedShapeDecorator"/>
 <fullyQualifiedTypeName name="com.letattung.decoratorpattern1.Rectangle"/>
@@ -59,5 +55,9 @@
 <fullyQualifiedTypeName name="com.letattung.observerpattern1.BinaryObserver"/>
 <fullyQualifiedTypeName name="com.letattung.observerpattern1.OctalObserver"/>
 <fullyQualifiedTypeName name="com.letattung.observerpattern1.HexaObserver"/>
+<fullyQualifiedTypeName name="com.letattung.statepattern1.State"/>
+<fullyQualifiedTypeName name="com.letattung.statepattern1.Context"/>
+<fullyQualifiedTypeName name="com.letattung.statepattern1.StartState"/>
+<fullyQualifiedTypeName name="com.letattung.statepattern1.StopState"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

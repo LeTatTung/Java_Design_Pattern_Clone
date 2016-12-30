@@ -1,5 +1,0 @@
-package com.letattung.filterpattern1;
-
-public interface OrCriteria im{
-
-}
