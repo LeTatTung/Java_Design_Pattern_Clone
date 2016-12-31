@@ -1,0 +1,15 @@
+package com.letattung.visitorpattern1;
+
+public class Computer implements ComputerPart{
+
+	ComputerPart parts[];
+	
+	public Computer() {
+		parts = new ComputerPart[]{new Keyboard(), new Monitor(), new Mouse()};
+	}
+	@Override
+	public void accept(ComputerPartVisitor computerPartVisitor) {
+		computerPartVisitor.visit(this);
+	}
+
+}

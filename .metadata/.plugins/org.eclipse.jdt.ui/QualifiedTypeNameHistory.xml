@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.letattung.facadepattern1.Cricle"/>
-<fullyQualifiedTypeName name="com.letattung.facadepattern1.Circle"/>
-<fullyQualifiedTypeName name="com.letattung.facadepattern1.Rectangle"/>
-<fullyQualifiedTypeName name="com.letattung.facadepattern1.Square"/>
-<fullyQualifiedTypeName name="com.letattung.facadepattern1.Shape"/>
-<fullyQualifiedTypeName name="com.letattung.facadepattern1.ShapeMaker"/>
-<fullyQualifiedTypeName name="com.letattung.facadepattern.Circle"/>
-<fullyQualifiedTypeName name="com.letattung.facadepattern.Rectangle"/>
 <fullyQualifiedTypeName name="com.letattung.facadepattern.Square"/>
 <fullyQualifiedTypeName name="com.letattung.facadepattern.Shape"/>
 <fullyQualifiedTypeName name="com.letattung.facadepattern.ShapeMaker"/>
@@ -59,5 +51,13 @@
 <fullyQualifiedTypeName name="com.letattung.nullobjectpattern1.NullCustomer"/>
 <fullyQualifiedTypeName name="com.letattung.nullobjectpattern1.AbstractCustomer"/>
 <fullyQualifiedTypeName name="com.letattung.nullobjectpattern1.CustomerFactory"/>
+<fullyQualifiedTypeName name="com.letattung.strategypattern1.Strategy"/>
+<fullyQualifiedTypeName name="com.letattung.strategypattern1.OperationAdd"/>
+<fullyQualifiedTypeName name="com.letattung.strategypattern1.OperationSubstract"/>
+<fullyQualifiedTypeName name="com.letattung.strategypattern1.Context"/>
+<fullyQualifiedTypeName name="com.letattung.strategypattern1.OperationMultiply"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.letattung.templatepattern1.Game"/>
+<fullyQualifiedTypeName name="com.letattung.templatepattern1.Cricket"/>
+<fullyQualifiedTypeName name="com.letattung.templatepattern1.Football"/>
 </qualifiedTypeNameHistroy>
