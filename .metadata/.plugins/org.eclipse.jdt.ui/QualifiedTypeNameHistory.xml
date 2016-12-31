@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.letattung.proxypattern.Image"/>
-<fullyQualifiedTypeName name="com.letattung.proxypattern.RealImage"/>
-<fullyQualifiedTypeName name="com.letattung.proxypattern.ProxyImage"/>
-<fullyQualifiedTypeName name="com.letattung.chainofresponsibilitypattern1.ErrorLogger"/>
 <fullyQualifiedTypeName name="com.letattung.chainofresponsibilitypattern1.FileLogger"/>
 <fullyQualifiedTypeName name="com.letattung.chainofresponsibilitypattern1.ChainPatternDemo"/>
 <fullyQualifiedTypeName name="com.letattung.chainofresponsibilitypattern1.ConsoleLogger"/>
@@ -55,9 +51,13 @@
 <fullyQualifiedTypeName name="com.letattung.visitorpattern1.Keyboard"/>
 <fullyQualifiedTypeName name="com.letattung.visitorpattern1.Monitor"/>
 <fullyQualifiedTypeName name="com.letattung.visitorpattern1.Mouse"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.letattung.visitorpattern1.ComputerPart"/>
 <fullyQualifiedTypeName name="com.letattung.visitorpattern1.Computer"/>
 <fullyQualifiedTypeName name="com.letattung.visitorpattern1.ComputerPartVisitor"/>
 <fullyQualifiedTypeName name="com.letattung.visitorpattern1.ComputerPartDisplayVisitor"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
+<fullyQualifiedTypeName name="com.letattung.MVCpattern1.Student"/>
+<fullyQualifiedTypeName name="com.letattung.MVCpattern1.StudentView"/>
+<fullyQualifiedTypeName name="com.letattung.MVCpattern1.StudentController"/>
 </qualifiedTypeNameHistroy>

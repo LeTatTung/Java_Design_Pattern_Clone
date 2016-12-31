@@ -1,0 +1,5 @@
+package com.letattung.businessdelegatepattern;
+
+public class BusinessLookUp {
+
+}
