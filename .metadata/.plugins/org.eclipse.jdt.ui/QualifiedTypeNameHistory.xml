@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.letattung.facadepattern.Square"/>
-<fullyQualifiedTypeName name="com.letattung.facadepattern.Shape"/>
-<fullyQualifiedTypeName name="com.letattung.facadepattern.ShapeMaker"/>
-<fullyQualifiedTypeName name="com.letattung.flyweightpattern.Shape"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="com.letattung.flyweightpattern.Circle"/>
-<fullyQualifiedTypeName name="com.letattung.flyweightpattern.ShapeFactory"/>
 <fullyQualifiedTypeName name="com.letattung.proxypattern.Image"/>
 <fullyQualifiedTypeName name="com.letattung.proxypattern.RealImage"/>
 <fullyQualifiedTypeName name="com.letattung.proxypattern.ProxyImage"/>
@@ -56,8 +49,15 @@
 <fullyQualifiedTypeName name="com.letattung.strategypattern1.OperationSubstract"/>
 <fullyQualifiedTypeName name="com.letattung.strategypattern1.Context"/>
 <fullyQualifiedTypeName name="com.letattung.strategypattern1.OperationMultiply"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.letattung.templatepattern1.Game"/>
 <fullyQualifiedTypeName name="com.letattung.templatepattern1.Cricket"/>
 <fullyQualifiedTypeName name="com.letattung.templatepattern1.Football"/>
+<fullyQualifiedTypeName name="com.letattung.visitorpattern1.Keyboard"/>
+<fullyQualifiedTypeName name="com.letattung.visitorpattern1.Monitor"/>
+<fullyQualifiedTypeName name="com.letattung.visitorpattern1.Mouse"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.letattung.visitorpattern1.ComputerPart"/>
+<fullyQualifiedTypeName name="com.letattung.visitorpattern1.Computer"/>
+<fullyQualifiedTypeName name="com.letattung.visitorpattern1.ComputerPartVisitor"/>
+<fullyQualifiedTypeName name="com.letattung.visitorpattern1.ComputerPartDisplayVisitor"/>
 </qualifiedTypeNameHistroy>

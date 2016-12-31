@@ -1,0 +1,5 @@
+package com.letattung.MVCpattern1;
+
+public class StudentView {
+
+}
