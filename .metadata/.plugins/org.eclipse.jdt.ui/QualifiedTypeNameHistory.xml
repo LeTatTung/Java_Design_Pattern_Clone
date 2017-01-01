@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.letattung.commandpattern1.BuyStock"/>
-<fullyQualifiedTypeName name="com.letattung.commandpattern1.SellStock"/>
-<fullyQualifiedTypeName name="com.letattung.commandpattern1.Broker"/>
-<fullyQualifiedTypeName name="com.letattung.interpreterpattern1.AndExpression"/>
-<fullyQualifiedTypeName name="com.letattung.interpreterpattern1.TerminalExpression"/>
 <fullyQualifiedTypeName name="com.letattung.interpreterpattern1.OrExpression"/>
 <fullyQualifiedTypeName name="com.letattung.interpreterpattern1.Expression"/>
 <fullyQualifiedTypeName name="com.letattung.iteratorpattern1.Container"/>
@@ -53,11 +48,16 @@
 <fullyQualifiedTypeName name="com.letattung.MVCpattern1.Student"/>
 <fullyQualifiedTypeName name="com.letattung.MVCpattern1.StudentView"/>
 <fullyQualifiedTypeName name="com.letattung.MVCpattern1.StudentController"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.letattung.businessdelegatepattern.EJBService"/>
 <fullyQualifiedTypeName name="com.letattung.businessdelegatepattern.JMSService"/>
 <fullyQualifiedTypeName name="com.letattung.businessdelegatepattern.BusinessLookUp"/>
 <fullyQualifiedTypeName name="com.letattung.businessdelegatepattern.BusinessService"/>
 <fullyQualifiedTypeName name="com.letattung.businessdelegatepattern.BusinessDelegate"/>
 <fullyQualifiedTypeName name="com.letattung.businessdelegatepattern.Client"/>
+<fullyQualifiedTypeName name="com.letattung.compositeentitypattern1.DependentObject1"/>
+<fullyQualifiedTypeName name="com.letattung.compositeentitypattern1.DependentObject2"/>
+<fullyQualifiedTypeName name="com.letattung.compositeentitypattern1.CoarseGrainedObject"/>
+<fullyQualifiedTypeName name="com.letattung.compositeentitypattern1.CompositeEntity"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.letattung.compositeentitypattern1.Client"/>
 </qualifiedTypeNameHistroy>
