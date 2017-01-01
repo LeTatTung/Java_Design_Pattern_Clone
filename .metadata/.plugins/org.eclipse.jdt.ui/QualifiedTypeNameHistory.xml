@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.letattung.chainofresponsibilitypattern1.FileLogger"/>
-<fullyQualifiedTypeName name="com.letattung.chainofresponsibilitypattern1.ChainPatternDemo"/>
-<fullyQualifiedTypeName name="com.letattung.chainofresponsibilitypattern1.ConsoleLogger"/>
-<fullyQualifiedTypeName name="com.letattung.chainofresponsibilitypattern1.AbstractLogger"/>
-<fullyQualifiedTypeName name="com.letattung.commandpattern1.Order"/>
-<fullyQualifiedTypeName name="com.letattung.commandpattern1.Stock"/>
 <fullyQualifiedTypeName name="com.letattung.commandpattern1.BuyStock"/>
 <fullyQualifiedTypeName name="com.letattung.commandpattern1.SellStock"/>
 <fullyQualifiedTypeName name="com.letattung.commandpattern1.Broker"/>
@@ -55,9 +49,15 @@
 <fullyQualifiedTypeName name="com.letattung.visitorpattern1.Computer"/>
 <fullyQualifiedTypeName name="com.letattung.visitorpattern1.ComputerPartVisitor"/>
 <fullyQualifiedTypeName name="com.letattung.visitorpattern1.ComputerPartDisplayVisitor"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
 <fullyQualifiedTypeName name="com.letattung.MVCpattern1.Student"/>
 <fullyQualifiedTypeName name="com.letattung.MVCpattern1.StudentView"/>
 <fullyQualifiedTypeName name="com.letattung.MVCpattern1.StudentController"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.letattung.businessdelegatepattern.EJBService"/>
+<fullyQualifiedTypeName name="com.letattung.businessdelegatepattern.JMSService"/>
+<fullyQualifiedTypeName name="com.letattung.businessdelegatepattern.BusinessLookUp"/>
+<fullyQualifiedTypeName name="com.letattung.businessdelegatepattern.BusinessService"/>
+<fullyQualifiedTypeName name="com.letattung.businessdelegatepattern.BusinessDelegate"/>
+<fullyQualifiedTypeName name="com.letattung.businessdelegatepattern.Client"/>
 </qualifiedTypeNameHistroy>
