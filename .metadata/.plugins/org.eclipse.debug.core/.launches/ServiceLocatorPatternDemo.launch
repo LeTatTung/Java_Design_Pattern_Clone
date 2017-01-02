@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/ServiceLocatorPattern1/src/com/letattung/servicelocatorpattern/ServiceLocatorPatternDemo.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.letattung.servicelocatorpattern.ServiceLocatorPatternDemo"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ServiceLocatorPattern1"/>
+</launchConfiguration>

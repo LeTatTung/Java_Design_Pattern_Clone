@@ -1,0 +1,12 @@
+package com.letattung.servicelocatorpattern;
+
+import java.util.ArrayList;
+
+public class Cache {
+
+	private ArrayList<Service> services;
+	
+	public Cache() {
+		// TODO Auto-generated constructor stub
+	}
+}

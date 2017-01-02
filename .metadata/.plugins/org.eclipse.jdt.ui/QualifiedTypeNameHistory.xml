@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.letattung.mediatorpattern1.ChatRoom"/>
-<fullyQualifiedTypeName name="com.letattung.mediatorpattern1.User"/>
-<fullyQualifiedTypeName name="com.letattung.mementopattern1.Memento"/>
-<fullyQualifiedTypeName name="com.letattung.mementopattern1.Originator"/>
-<fullyQualifiedTypeName name="com.letattung.mementopattern1.CareTaker"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
-<fullyQualifiedTypeName name="com.letattung.observerpattern1.Observer"/>
-<fullyQualifiedTypeName name="java.lang.InternalError"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="com.letattung.observerpattern1.Subject"/>
-<fullyQualifiedTypeName name="com.letattung.observerpattern1.BinaryObserver"/>
-<fullyQualifiedTypeName name="com.letattung.observerpattern1.OctalObserver"/>
-<fullyQualifiedTypeName name="com.letattung.observerpattern1.HexaObserver"/>
-<fullyQualifiedTypeName name="com.letattung.statepattern1.State"/>
 <fullyQualifiedTypeName name="com.letattung.statepattern1.Context"/>
 <fullyQualifiedTypeName name="com.letattung.statepattern1.StartState"/>
 <fullyQualifiedTypeName name="com.letattung.statepattern1.StopState"/>
@@ -51,13 +37,27 @@
 <fullyQualifiedTypeName name="com.letattung.compositeentitypattern1.CoarseGrainedObject"/>
 <fullyQualifiedTypeName name="com.letattung.compositeentitypattern1.CompositeEntity"/>
 <fullyQualifiedTypeName name="com.letattung.compositeentitypattern1.Client"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.letattung.dataaccessobjectpattern1.StudentDao"/>
 <fullyQualifiedTypeName name="com.letattung.dataaccessobjectpattern1.StudentDaoImpl"/>
 <fullyQualifiedTypeName name="com.letattung.dataaccessobjectpattern1.Student"/>
 <fullyQualifiedTypeName name="com.letattung.frontcontrollerpattern1.HomeView"/>
 <fullyQualifiedTypeName name="com.letattung.frontcontrollerpattern1.StudentView"/>
 <fullyQualifiedTypeName name="com.letattung.frontcontrollerpattern1.Dispatcher"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.letattung.frontcontrollerpattern1.FrontController"/>
+<fullyQualifiedTypeName name="com.letattung.interceptingfilterpattern1.FilterChain"/>
+<fullyQualifiedTypeName name="com.letattung.interceptingfilterpattern1.Filter"/>
+<fullyQualifiedTypeName name="com.letattung.interceptingfilterpattern1.FilterManager"/>
+<fullyQualifiedTypeName name="com.letattung.interceptingfilterpattern1.Target"/>
+<fullyQualifiedTypeName name="com.letattung.interceptingfilterpattern1.AuthenticationFilter"/>
+<fullyQualifiedTypeName name="com.letattung.interceptingfilterpattern1.DebugFilter"/>
+<fullyQualifiedTypeName name="com.letattung.interceptingfilterpattern1.Client"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="com.letattung.servicelocatorpattern.Service1"/>
+<fullyQualifiedTypeName name="com.letattung.servicelocatorpattern.Service2"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.letattung.servicelocatorpattern.InitialContext"/>
+<fullyQualifiedTypeName name="com.letattung.servicelocatorpattern.Service"/>
+<fullyQualifiedTypeName name="com.letattung.servicelocatorpattern.ServiceLocator"/>
+<fullyQualifiedTypeName name="com.letattung.servicelocatorpattern.Cache"/>
 </qualifiedTypeNameHistroy>

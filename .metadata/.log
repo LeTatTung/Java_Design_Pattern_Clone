@@ -1492,3 +1492,22 @@ org.eclipse.recommenders.utils.Logs$LogTraceException
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
+!SESSION 2017-01-02 16:24:51.421 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2017-01-02 16:32:01.864
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-01-02 16:32:01.891
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-01-02 16:33:05.170
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-01-02 16:33:05.171
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
