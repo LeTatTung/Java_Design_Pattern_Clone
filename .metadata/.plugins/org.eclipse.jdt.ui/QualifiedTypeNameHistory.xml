@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.letattung.iteratorpattern1.NameRepository.NameIterator"/>
-<fullyQualifiedTypeName name="com.letattung.iteratorpattern1.NameRepository"/>
-<fullyQualifiedTypeName name="com.letattung.iteratorpattern1.Iterator"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="com.letattung.mediatorpattern1.ChatRoom"/>
 <fullyQualifiedTypeName name="com.letattung.mediatorpattern1.User"/>
 <fullyQualifiedTypeName name="com.letattung.mementopattern1.Memento"/>
@@ -54,10 +50,14 @@
 <fullyQualifiedTypeName name="com.letattung.compositeentitypattern1.DependentObject2"/>
 <fullyQualifiedTypeName name="com.letattung.compositeentitypattern1.CoarseGrainedObject"/>
 <fullyQualifiedTypeName name="com.letattung.compositeentitypattern1.CompositeEntity"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.letattung.compositeentitypattern1.Client"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.letattung.dataaccessobjectpattern1.StudentDao"/>
 <fullyQualifiedTypeName name="com.letattung.dataaccessobjectpattern1.StudentDaoImpl"/>
 <fullyQualifiedTypeName name="com.letattung.dataaccessobjectpattern1.Student"/>
+<fullyQualifiedTypeName name="com.letattung.frontcontrollerpattern1.HomeView"/>
+<fullyQualifiedTypeName name="com.letattung.frontcontrollerpattern1.StudentView"/>
+<fullyQualifiedTypeName name="com.letattung.frontcontrollerpattern1.Dispatcher"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.letattung.frontcontrollerpattern1.FrontController"/>
 </qualifiedTypeNameHistroy>

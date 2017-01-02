@@ -1,0 +1,5 @@
+package com.letattung.interceptingfilterpattern1;
+
+public interface Filter {
+
+}
