@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.letattung.interpreterpattern1.OrExpression"/>
-<fullyQualifiedTypeName name="com.letattung.interpreterpattern1.Expression"/>
-<fullyQualifiedTypeName name="com.letattung.iteratorpattern1.Container"/>
 <fullyQualifiedTypeName name="com.letattung.iteratorpattern1.NameRepository.NameIterator"/>
 <fullyQualifiedTypeName name="com.letattung.iteratorpattern1.NameRepository"/>
 <fullyQualifiedTypeName name="com.letattung.iteratorpattern1.Iterator"/>
@@ -12,7 +9,6 @@
 <fullyQualifiedTypeName name="com.letattung.mementopattern1.Memento"/>
 <fullyQualifiedTypeName name="com.letattung.mementopattern1.Originator"/>
 <fullyQualifiedTypeName name="com.letattung.mementopattern1.CareTaker"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="com.letattung.observerpattern1.Observer"/>
 <fullyQualifiedTypeName name="java.lang.InternalError"/>
@@ -60,4 +56,8 @@
 <fullyQualifiedTypeName name="com.letattung.compositeentitypattern1.CompositeEntity"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.letattung.compositeentitypattern1.Client"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.letattung.dataaccessobjectpattern1.StudentDao"/>
+<fullyQualifiedTypeName name="com.letattung.dataaccessobjectpattern1.StudentDaoImpl"/>
+<fullyQualifiedTypeName name="com.letattung.dataaccessobjectpattern1.Student"/>
 </qualifiedTypeNameHistroy>

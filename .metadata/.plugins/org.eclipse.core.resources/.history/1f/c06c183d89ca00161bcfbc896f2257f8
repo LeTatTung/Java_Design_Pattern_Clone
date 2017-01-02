@@ -1,5 +1,0 @@
-package com.letattung.commandpattern1;
-
-public interface Order {
-
-}
