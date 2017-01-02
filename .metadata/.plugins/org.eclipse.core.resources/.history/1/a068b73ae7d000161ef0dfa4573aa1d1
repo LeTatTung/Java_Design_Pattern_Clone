@@ -1,0 +1,12 @@
+package com.letattung.transferobjectpattern;
+
+public class TransferObjectPatternDemo {
+
+	public static void main(String [] args){
+		
+		StudentBO studentBusinessObject = new StudentBO();
+		for (StudentVO student : studentBusinessObject.getAllStudents()){
+			System.out.println("Student: [RollNo : " + student.getRollNo() + ", Name : " + student.getName() + " ]");
+		}
+	}
+}

@@ -1,0 +1,16 @@
+package com.letattung.transferobjectpattern;
+
+import java.util.ArrayList;
+
+public class StudentBO {
+
+	ArrayList<StudentVO> students;
+	
+	public StudentBO() {
+		students = new ArrayList<>();
+		StudentVO student1 = new StudentVO("tung", 0);
+		StudentVO student2 = new StudentVO("tien", 1);
+		students.add(student1);
+		students.add(student2);
+	}
+}
