@@ -1,0 +1,6 @@
+package com.letattung.abstractfactorypattern2;
+
+public class NotPCPhrase extends Expression{
+
+	static String list[] = {"hehhe", "hahah", "hihih"};
+}

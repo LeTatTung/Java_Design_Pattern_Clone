@@ -1,0 +1,10 @@
+package com.letattung.abstractfactorypattern2;
+
+public abstract class Factory {
+
+	protected Expression prototype = null;
+	
+	public Expression makePhrase(){
+		prototype.cloan();
+	}
+}
