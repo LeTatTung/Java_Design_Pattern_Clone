@@ -1,5 +1,0 @@
-package com.letattung.statepattern1;
-
-public class StopState {
-
-}
