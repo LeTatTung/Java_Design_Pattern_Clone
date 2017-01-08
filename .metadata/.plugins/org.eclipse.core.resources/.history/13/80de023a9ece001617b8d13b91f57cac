@@ -1,5 +1,0 @@
-package com.letattung.strategypattern1;
-
-public interface Strategy {
-
-}

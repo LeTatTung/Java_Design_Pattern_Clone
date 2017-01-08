@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.letattung.strategypattern1.OperationSubstract"/>
-<fullyQualifiedTypeName name="com.letattung.strategypattern1.Context"/>
-<fullyQualifiedTypeName name="com.letattung.strategypattern1.OperationMultiply"/>
-<fullyQualifiedTypeName name="com.letattung.templatepattern1.Game"/>
-<fullyQualifiedTypeName name="com.letattung.templatepattern1.Cricket"/>
-<fullyQualifiedTypeName name="com.letattung.templatepattern1.Football"/>
-<fullyQualifiedTypeName name="com.letattung.visitorpattern1.Keyboard"/>
-<fullyQualifiedTypeName name="com.letattung.visitorpattern1.Monitor"/>
-<fullyQualifiedTypeName name="com.letattung.visitorpattern1.Mouse"/>
-<fullyQualifiedTypeName name="com.letattung.visitorpattern1.ComputerPart"/>
-<fullyQualifiedTypeName name="com.letattung.visitorpattern1.Computer"/>
 <fullyQualifiedTypeName name="com.letattung.visitorpattern1.ComputerPartVisitor"/>
 <fullyQualifiedTypeName name="com.letattung.visitorpattern1.ComputerPartDisplayVisitor"/>
 <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
@@ -52,12 +41,23 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.letattung.transferobjectpattern.StudentBO"/>
 <fullyQualifiedTypeName name="com.letattung.transferobjectpattern.StudentVO"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="com.letattung.abstractfactorypattern2.PCPhrase"/>
 <fullyQualifiedTypeName name="com.letattung.abstractfactorypattern2.Expression"/>
 <fullyQualifiedTypeName name="com.letattung.abstractfactorypattern2.NotPCPhrase"/>
 <fullyQualifiedTypeName name="com.letattung.abstractfactorypattern2.Factory"/>
 <fullyQualifiedTypeName name="com.letattung.abstractfactorypattern2.PCFactory"/>
 <fullyQualifiedTypeName name="com.letattung.abstractfactorypattern2.NotPCFactory"/>
+<fullyQualifiedTypeName name="com.letattung.builderpattern2.Waiter"/>
+<fullyQualifiedTypeName name="com.letattung.builderpattern2.HawaiianPizzaBuilder"/>
+<fullyQualifiedTypeName name="com.letattung.builderpattern2.Pizza"/>
+<fullyQualifiedTypeName name="com.letattung.builderpattern2.PizzaBuilder"/>
+<fullyQualifiedTypeName name="com.letattung.builderpattern2.SpicyPizzaBuilder"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.letattung.singletonpattern2.EagerInitializedSingleton"/>
+<fullyQualifiedTypeName name="com.letattung.singletonpattern2.EagerInitialized"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="com.letattung.singletonpattern2.StaticBlock"/>
+<fullyQualifiedTypeName name="com.letattung.singletonpattern2.LazyInitialized"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="com.letattung.singletonpattern2.ThreadSafe"/>
 </qualifiedTypeNameHistroy>

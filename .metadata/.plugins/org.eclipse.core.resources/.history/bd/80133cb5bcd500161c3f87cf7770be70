@@ -1,0 +1,9 @@
+package com.letattung.delegation;
+
+import org.slf4j.Logger;
+import org.slf4j.Logger;
+
+public class CanonPrinter implements Printer{
+
+	private static final Logger logger = Lo
+}
