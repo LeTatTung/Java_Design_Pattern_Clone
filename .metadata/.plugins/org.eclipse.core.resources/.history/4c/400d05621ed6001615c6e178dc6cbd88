@@ -1,0 +1,6 @@
+package com.letattung.dependencyinjection;
+
+public interface Wizard {
+
+	void smoke();
+}

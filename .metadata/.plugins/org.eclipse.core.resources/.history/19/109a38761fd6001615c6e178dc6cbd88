@@ -1,0 +1,5 @@
+package com.letattung.dependency.injection;
+
+public class AbstractModule extends Object implements Module{
+
+}
