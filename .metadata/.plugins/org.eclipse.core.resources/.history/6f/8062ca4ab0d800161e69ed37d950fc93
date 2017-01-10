@@ -1,0 +1,13 @@
+package com.letattung.doubledispatch;
+
+public class SpaceStationIss extends SpaceStationMir{
+
+	public SpaceStationIss(int left, int right, int top, int bottom) {
+		super(left, right, top, bottom);
+	}
+
+	@Override
+	public void collision(GameObject gameObject){
+		gameObject.collision(this);
+	}
+}

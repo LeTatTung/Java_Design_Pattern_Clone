@@ -72,9 +72,9 @@ public final class DbManager {
 				e.printStackTrace();
 			}
 		}
-		db.getCollection("user_accounts").insertOne(
-		        new Document("userID", userAccount.getUserId()).append("userName",
-		            userAccount.getUserName()).append("additionalInfo", userAccount.getAdditionalInfo()));
+//		db.getCollection("user_accounts").insertOne(
+//		        new Document("userID", userAccount.getUserId()).append("userName",
+//		            userAccount.getUserName()).append("additionalInfo", userAccount.getAdditionalInfo()));
 	}
 	//update DB
 	public static void updateDb(UserAccount userAccount){
@@ -89,10 +89,10 @@ public final class DbManager {
 				e.printStackTrace();
 			}
 		}
-		db.getCollection("user_accounts").updateOne(
-		        new Document("userID", userAccount.getUserId()),
-		        new Document("$set", new Document("userName", userAccount.getUserName()).append(
-		            "additionalInfo", userAccount.getAdditionalInfo())));
+//		db.getCollection("user_accounts").updateOne(
+//		        new Document("userID", userAccount.getUserId()),
+//		        new Document("$set", new Document("userName", userAccount.getUserName()).append(
+//		            "additionalInfo", userAccount.getAdditionalInfo())));
 	}
 	public static void upsertDb(UserAccount userAccount){
 		if(!useMongoDB){
@@ -106,9 +106,9 @@ public final class DbManager {
 				e.printStackTrace();
 			}
 		}
-		db.getCollection("user_accounts").updateOne(
-		        new Document("userID", userAccount.getUserId()),
-		        new Document("$set", new Document("userName", userAccount.getUserName()).append(
-		            "additionalInfo", userAccount.getAdditionalInfo())));
+//		db.getCollection("user_accounts").updateOne(
+//		        new Document("userID", userAccount.getUserId()),
+//		        new Document("$set", new Document("userName", userAccount.getUserName()).append(
+//		            "additionalInfo", userAccount.getAdditionalInfo())));
 	}
 }

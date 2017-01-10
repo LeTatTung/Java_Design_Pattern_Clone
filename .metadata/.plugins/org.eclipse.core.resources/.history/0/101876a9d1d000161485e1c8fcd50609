@@ -1,5 +1,0 @@
-package com.letattung.servicelocatorpattern;
-
-public class ServiceLocator {
-
-}

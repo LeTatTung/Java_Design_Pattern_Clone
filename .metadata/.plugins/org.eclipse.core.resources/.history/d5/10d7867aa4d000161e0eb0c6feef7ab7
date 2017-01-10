@@ -1,5 +1,0 @@
-package com.letattung.interceptingfilterpattern1;
-
-public class FilterManager {
-
-}
