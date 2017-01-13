@@ -1,0 +1,17 @@
+package com.letattung.datamapper;
+
+import java.util.Optional;
+
+import org.apache.log4j.Logger;
+
+public final class App {
+	private static Logger log = Logger.getLogger(App.class);
+	
+	public static void main(final String [] args){
+		final StudentDataMapper mapper = new StudentDataMapperImpl();
+		
+		Student student = new Student(1, "Le Tat Tung", 'A');
+		mapper.insert(student);
+		log.debug("App.main(), student : " + student + ", is inserted");
+	}
+}

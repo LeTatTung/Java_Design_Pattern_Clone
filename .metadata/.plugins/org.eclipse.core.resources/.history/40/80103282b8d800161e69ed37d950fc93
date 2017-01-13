@@ -1,0 +1,40 @@
+package com.letattung.datamapper;
+
+import java.util.ArrayList;
+import java.util.Optional;
+
+public final class StudentDataMapperImpl implements StudentDataMapper{
+
+	private ArrayList<Student> students = new ArrayList<>();
+	@Override
+	public Optional<Student> find(int studentId) {
+		for (final Student student : this.getStudents()){
+			if (student.getStudentId() == studentId){
+				return Optional.of(student);
+			}
+		}
+		return Optional.empty();
+	}
+
+	@Override
+	public void insert(Student student) throws DataMapperException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(Student student) throws DataMapperException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(Student student) throws DataMapperException {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public ArrayList<Student> getStudents(){
+		return this.students;
+	}
+}

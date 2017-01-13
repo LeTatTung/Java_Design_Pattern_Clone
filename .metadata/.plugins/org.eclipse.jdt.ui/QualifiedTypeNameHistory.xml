@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.letattung.interceptingfilterpattern1.FilterManager"/>
-<fullyQualifiedTypeName name="com.letattung.interceptingfilterpattern1.Target"/>
-<fullyQualifiedTypeName name="com.letattung.interceptingfilterpattern1.AuthenticationFilter"/>
-<fullyQualifiedTypeName name="com.letattung.interceptingfilterpattern1.DebugFilter"/>
-<fullyQualifiedTypeName name="com.letattung.interceptingfilterpattern1.Client"/>
-<fullyQualifiedTypeName name="com.letattung.servicelocatorpattern.Service1"/>
 <fullyQualifiedTypeName name="com.letattung.servicelocatorpattern.Service2"/>
 <fullyQualifiedTypeName name="com.letattung.servicelocatorpattern.InitialContext"/>
 <fullyQualifiedTypeName name="com.letattung.servicelocatorpattern.Service"/>
@@ -42,7 +36,6 @@
 <fullyQualifiedTypeName name="com.letattung.dependencyinjection.Wizard"/>
 <fullyQualifiedTypeName name="com.letattung.dependencyinjection.OldTobyTobacco"/>
 <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="javax.xml.bind.Binder"/>
 <fullyQualifiedTypeName name="com.letattung.dependency.injection.SimpleWizard"/>
 <fullyQualifiedTypeName name="com.letattung.dependency.injection.AdvancedWizard"/>
@@ -55,9 +48,16 @@
 <fullyQualifiedTypeName name="org.slf4j.Logger"/>
 <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
 <fullyQualifiedTypeName name="com.letattung.doubledispatch.GameObject"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.letattung.doubledispatch.FlamingAsteroid"/>
 <fullyQualifiedTypeName name="com.letattung.doubledispatch.Meteoroid"/>
 <fullyQualifiedTypeName name="com.letattung.doubledispatch.SpaceStationMir"/>
 <fullyQualifiedTypeName name="com.letattung.doubledispatch.SpaceStationIss"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="com.letattung.datamapper.StudentDataMapper"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.letattung.datamapper.Student"/>
+<fullyQualifiedTypeName name="java.util.Optional"/>
+<fullyQualifiedTypeName name="com.letattung.datamapper.DataMapperException"/>
 </qualifiedTypeNameHistroy>
