@@ -1,0 +1,14 @@
+package com.letattung.event.aggregator;
+
+import java.util.ArrayList;
+
+public class App {
+
+	public static void main(String [] args){
+		
+		KingJoffrey kingJoffrey = new KingJoffrey();
+		KingsHand kingsHand = new KingsHand(kingJoffrey);
+		
+		ArrayList<EventEmitter> emitters = new ArrayList<>();
+	}
+}

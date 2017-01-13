@@ -1,6 +1,0 @@
-package com.letattung.abstractfactorypattern2;
-
-public abstract class Factory {
-
-	protected Exception prototype = null;
-}

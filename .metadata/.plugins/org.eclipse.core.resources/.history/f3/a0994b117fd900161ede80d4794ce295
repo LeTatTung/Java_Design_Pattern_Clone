@@ -1,0 +1,14 @@
+package com.letattung.event.aggregator;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class LordVarys extends EventEmitter{
+
+	private static final Logger LOGGER = LoggerFactory.getLogger(LordVarys.class);
+	@Override
+	public void timePasses(Weekday weekday) {
+		
+	}
+
+}
