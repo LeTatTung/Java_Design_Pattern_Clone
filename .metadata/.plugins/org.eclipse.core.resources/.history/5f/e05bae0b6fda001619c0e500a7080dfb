@@ -1,0 +1,5 @@
+package com.letattung.eventdrivenarchitecture.event;
+
+public class AbstractEvent {
+
+}

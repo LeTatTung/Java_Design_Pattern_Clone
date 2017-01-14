@@ -1,0 +1,5 @@
+package com.letattung.eventdrivenarchitecture.model;
+
+public class User {
+
+}
