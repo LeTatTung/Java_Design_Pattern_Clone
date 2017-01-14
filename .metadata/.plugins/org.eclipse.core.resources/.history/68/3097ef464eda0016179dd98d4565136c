@@ -1,0 +1,20 @@
+package com.letattung.event.asynchronous;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class App {
+
+	private static final Logger LOGGER = LoggerFactory.getLogger(App.class);
+	private static final String PROP_FILE_NAME = "config.properties";
+	boolean interactiveMode = false;
+	
+	public static void main(String [] args){
+		App app = new App();
+		
+		app.setUp();
+		app.run();
+	}
+	public void setUp(){}
+	public void run(){}
+}

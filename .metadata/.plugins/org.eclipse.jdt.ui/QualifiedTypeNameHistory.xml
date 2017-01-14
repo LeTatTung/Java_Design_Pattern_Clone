@@ -50,14 +50,14 @@
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="org.slf4j.Logger"/>
 <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
-<fullyQualifiedTypeName name="com.letattung.event.aggregator.LordVarys"/>
-<fullyQualifiedTypeName name="com.letattung.event.aggregator.LordBaelish"/>
-<fullyQualifiedTypeName name="com.letattung.event.aggregator.Weekday"/>
 <fullyQualifiedTypeName name="com.letattung.event.aggregator.Event"/>
-<fullyQualifiedTypeName name="com.letattung.event.aggregator.Scout"/>
 <fullyQualifiedTypeName name="com.letattung.event.aggregator.EventObserver"/>
 <fullyQualifiedTypeName name="com.letattung.event.aggregator.KingJoffrey"/>
 <fullyQualifiedTypeName name="com.letattung.event.aggregator.KingsHand"/>
-<fullyQualifiedTypeName name="com.letattung.event.aggregator.EventEmitter"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.letattung.event.aggregator.LordBaelish"/>
+<fullyQualifiedTypeName name="com.letattung.event.aggregator.LordVarys"/>
+<fullyQualifiedTypeName name="com.letattung.event.aggregator.Scout"/>
+<fullyQualifiedTypeName name="com.letattung.event.aggregator.Weekday"/>
+<fullyQualifiedTypeName name="com.letattung.event.aggregator.EventEmitter"/>
 </qualifiedTypeNameHistroy>
