@@ -1,0 +1,5 @@
+package com.letattung.execute.around;
+
+public class SimpleFileWriter {
+
+}
