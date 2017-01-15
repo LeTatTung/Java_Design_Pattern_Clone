@@ -1,0 +1,5 @@
+package com.letattung.flux.store;
+
+public class Store {
+
+}

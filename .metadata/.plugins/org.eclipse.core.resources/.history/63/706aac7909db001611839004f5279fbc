@@ -1,0 +1,5 @@
+package com.letattung.flux.action;
+
+public class MenuAction {
+
+}
