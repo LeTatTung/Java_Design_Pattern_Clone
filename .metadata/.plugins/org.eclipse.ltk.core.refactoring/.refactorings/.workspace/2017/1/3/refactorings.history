@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;FactoryKit&apos;" deleteContents="false" description="Delete resource &apos;FactoryKit&apos;" element1="/FactoryKit" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1484449659467"/>
+</session>

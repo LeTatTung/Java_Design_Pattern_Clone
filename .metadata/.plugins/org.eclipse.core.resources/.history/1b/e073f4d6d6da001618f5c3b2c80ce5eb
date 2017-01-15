@@ -1,0 +1,5 @@
+package com.letattung.featuretoggle.pattern.propertiesversion;
+
+public class PropertiesFeatureToggleVersion {
+
+}

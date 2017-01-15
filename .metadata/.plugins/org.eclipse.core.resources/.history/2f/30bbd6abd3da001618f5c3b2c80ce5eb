@@ -1,0 +1,5 @@
+package com.letattung.featuretoggle.user;
+
+public class User {
+
+}
