@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.letattung.event.aggregator.Weekday"/>
-<fullyQualifiedTypeName name="com.letattung.event.aggregator.EventEmitter"/>
-<fullyQualifiedTypeName name="org.w3c.dom.events.Event"/>
-<fullyQualifiedTypeName name="com.letattung.event.asynchronous.IEvent"/>
-<fullyQualifiedTypeName name="java.lang.Runnable"/>
-<fullyQualifiedTypeName name="java.util.EventListener"/>
-<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
-<fullyQualifiedTypeName name="java.lang.Thread"/>
-<fullyQualifiedTypeName name="com.letattung.event.asynchronous.ThreadCompleteListener"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
-<fullyQualifiedTypeName name="java.util.concurrent.ConcurrentHashMap"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="com.letattung.event.asynchronous.Event"/>
-<fullyQualifiedTypeName name="java.util.Iterator"/>
-<fullyQualifiedTypeName name="java.util.Map.Entry"/>
-<fullyQualifiedTypeName name="com.letattung.event.asynchronous.App"/>
-<fullyQualifiedTypeName name="com.letattung.event.asynchronous.EventManager"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.letattung.event.asynchronous.InvalidOperationException"/>
 <fullyQualifiedTypeName name="com.letattung.event.asynchronous.LongRunningEventException"/>
@@ -38,7 +20,6 @@
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="com.letattung.execute.around.SimpleFileWriter"/>
 <fullyQualifiedTypeName name="com.letattung.execute.around.FileWriterAction"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="com.letattung.factorykit.WeaponFactory"/>
 <fullyQualifiedTypeName name="java.util.function.Consumer"/>
 <fullyQualifiedTypeName name="com.letattung.factorykit.WeaponType"/>
@@ -51,8 +32,6 @@
 <fullyQualifiedTypeName name="java.lang.IllegalAccessError"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
-<fullyQualifiedTypeName name="org.slf4j.Logger"/>
-<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
 <fullyQualifiedTypeName name="com.letattung.featuretoggle.App"/>
 <fullyQualifiedTypeName name="java.util.Properties"/>
 <fullyQualifiedTypeName name="com.letattung.featuretoggle.pattern.Service"/>
@@ -60,4 +39,25 @@
 <fullyQualifiedTypeName name="javax.jws.soap.SOAPBinding.Use"/>
 <fullyQualifiedTypeName name="com.letattung.featuretoggle.user.User"/>
 <fullyQualifiedTypeName name="com.letattung.featuretoggle.user.UserGroup"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="com.letattung.flux.view.View"/>
+<fullyQualifiedTypeName name="com.letattung.flux.action.ActionType"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.MenuBarUI"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.letattung.flux.store.Store"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="com.letattung.flux.action.Action"/>
+<fullyQualifiedTypeName name="com.letattung.flux.action.MenuAction"/>
+<fullyQualifiedTypeName name="com.letattung.flux.action.ContentAction"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="com.letattung.flux.action.Content"/>
+<fullyQualifiedTypeName name="java.awt.Menu"/>
+<fullyQualifiedTypeName name="com.letattung.flux.store.MenuStore"/>
+<fullyQualifiedTypeName name="com.letattung.flux.dispatcher.Dispatcher"/>
+<fullyQualifiedTypeName name="com.letattung.flux.view.MenuView"/>
+<fullyQualifiedTypeName name="com.letattung.flux.store.ContentStore"/>
+<fullyQualifiedTypeName name="com.letattung.flux.view.ContentView"/>
+<fullyQualifiedTypeName name="com.letattung.flux.action.MenuItem"/>
 </qualifiedTypeNameHistroy>

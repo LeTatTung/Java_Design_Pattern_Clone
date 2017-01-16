@@ -1,0 +1,6 @@
+package com.letattung.factorykit;
+
+public enum WeaponType {
+	
+	AXE, SWORD, BOW, SPEAR
+}
