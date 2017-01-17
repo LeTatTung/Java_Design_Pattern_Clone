@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.letattung.eventdrivenarchitecture.model.User"/>
 <fullyQualifiedTypeName name="com.letattung.eventdrivenarchitecture.event.UserCreatedEvent"/>
 <fullyQualifiedTypeName name="com.letattung.eventdrivenarchitecture.event.UserUpdatedEvent"/>
 <fullyQualifiedTypeName name="java.io.FileWriter"/>
@@ -43,21 +42,22 @@
 <fullyQualifiedTypeName name="com.letattung.factorykit.WeaponType"/>
 <fullyQualifiedTypeName name="E"/>
 <fullyQualifiedTypeName name="java.util.Optional"/>
-<fullyQualifiedTypeName name="com.letattung.fluentinterface.simple.SimpleFluentIterable"/>
 <fullyQualifiedTypeName name="java.util.function.Consumer"/>
 <fullyQualifiedTypeName name="java.util.Spliterator"/>
 <fullyQualifiedTypeName name="com.letattung.fluentinterface.lazy.DecoratingIterator"/>
-<fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="com.letattung.fluentinterface.FluentIterable"/>
 <fullyQualifiedTypeName name="java.lang.Iterable"/>
-<fullyQualifiedTypeName name="com.letattung.fluentinterface.lazy.LazyFluentIterable"/>
 <fullyQualifiedTypeName name="org.slf4j.Logger"/>
 <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.util.function.Function"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.util.function.Predicate"/>
+<fullyQualifiedTypeName name="java.util.StringJoiner"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.letattung.fluentinterface.simple.SimpleFluentIterable"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.letattung.fluentinterface.lazy.LazyFluentIterable"/>
 </qualifiedTypeNameHistroy>

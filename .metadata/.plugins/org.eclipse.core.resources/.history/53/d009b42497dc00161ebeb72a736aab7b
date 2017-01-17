@@ -1,0 +1,5 @@
+package com.letattung.halfsynchalfasync;
+
+public interface AsyncTask<O> {
+
+}
