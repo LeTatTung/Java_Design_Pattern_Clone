@@ -1,5 +1,0 @@
-package com.letattung.dependencyinjection;
-
-public @interface Inject {
-
-}

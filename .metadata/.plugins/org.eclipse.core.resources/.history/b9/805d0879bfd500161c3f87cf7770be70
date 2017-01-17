@@ -1,6 +1,0 @@
-package com.letattung.delegation;
-
-public interface Printer {
-
-	void print(final String message);
-}

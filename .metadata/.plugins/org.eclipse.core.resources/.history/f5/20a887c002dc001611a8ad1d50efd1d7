@@ -1,0 +1,5 @@
+package com.letattung.fluentinterface;
+
+public interface FluentIterable {
+
+}

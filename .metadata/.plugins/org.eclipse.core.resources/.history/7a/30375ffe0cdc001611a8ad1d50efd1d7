@@ -1,0 +1,90 @@
+package com.letattung.fluentinterface.lazy;
+
+import java.util.Iterator;
+import java.util.List;
+import java.util.Optional;
+import java.util.function.Function;
+import java.util.function.Predicate;
+
+import com.letattung.fluentinterface.FluentIterable;
+
+public class LazyFluentIterable<E> implements FluentIterable<E>{
+
+	private final Iterable<E> iterable;
+	
+	protected LazyFluentIterable(Iterable<E> iterable) {
+		this.iterable = iterable;
+	}
+	
+	protected LazyFluentIterable() {
+		iterable = this;
+	}
+	
+	@Override
+	public Iterator<E> iterator() {
+		return new DecoratingIterator<E>(iterable.iterator()) {
+			@Override
+			public E computeNext(){
+				return fromIterator.hasNext() ? fromIterator.next() : null;
+			}
+		};
+	}
+
+	@Override
+	public FluentIterable<E> filter(Predicate<? super E> predicate) {
+		return new LazyFluentIterable<E>(){
+			@Override
+			public Iterator<E> iterator(){
+				return new DecoratingIterator<E>(iterable.iterator()) {
+					@Override
+					public E computeNext(){
+						while (fromIterator.hasNext()){
+							E candidate = fromIterator.next();
+							if (predicate.test(candidate)){
+								return candidate;
+							}
+						}
+						return null;
+					}
+				};
+			}
+		};
+	}
+
+	@Override
+	public Optional<E> first() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public FluentIterable<E> first(int count) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Optional<E> last() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public FluentIterable<E> last(int count) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <T> FluentIterable<T> map(Function<? super E, T> function) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<E> asList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,7 +1,0 @@
-package com.letattung.dependency.injection;
-
-import javax.xml.bind.Binder;
-
-public interface Module {
-	void configure(Binder binder);
-}

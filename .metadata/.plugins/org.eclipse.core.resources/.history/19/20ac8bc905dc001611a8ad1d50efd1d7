@@ -1,0 +1,73 @@
+package com.letattung.fluentinterface.simple;
+
+import java.util.Iterator;
+import java.util.List;
+import java.util.Optional;
+import java.util.function.Function;
+import java.util.function.Predicate;
+
+import com.letattung.fluentinterface.FluentIterable;
+
+public class SimpleFluentIterable<E> implements FluentIterable<E>{
+
+	private Iterable<E> iterable;
+	
+	protected SimpleFluentIterable(Iterable<E> iterable) {
+		this.iterable = iterable;
+	}
+	
+	@Override
+	public Iterator<E> iterator() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public final FluentIterable<E> filter(Predicate<? super E> predicate) {
+		Iterator<E> iterator = iterator();
+		while(iterator.hasNext()){
+			E nextElement = iterator.next();
+			if (!predicate.test(nextElement)){
+				iterator.remove();
+			}
+		}
+		return this;
+	}
+
+	@Override
+	public Optional<E> first() {
+		Iterator<E> resultIterator = first(1).iterator();
+		return resultIterator.hasNext() ? Optional.of(resultIterator.next()) : Optional.empty();
+	}
+
+	@Override
+	public FluentIterable<E> first(int count) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Optional<E> last() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public FluentIterable<E> last(int count) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <T> FluentIterable<T> map(Function<? super E, T> function) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<E> asList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

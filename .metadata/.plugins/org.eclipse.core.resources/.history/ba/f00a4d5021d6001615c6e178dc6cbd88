@@ -1,5 +1,0 @@
-package com.letattung.dependency.injection;
-
-public class RivendellTobacco extends Tobacco{
-
-}
