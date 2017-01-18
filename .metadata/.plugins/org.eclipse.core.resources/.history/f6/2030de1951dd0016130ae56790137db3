@@ -1,0 +1,9 @@
+package com.letattung.hexagonal.domain;
+
+public class PlayerDetails {
+
+	private final String emailAddress;
+	private final String bankAccountNumber;
+	private final String phoneNumber;
+	
+}
