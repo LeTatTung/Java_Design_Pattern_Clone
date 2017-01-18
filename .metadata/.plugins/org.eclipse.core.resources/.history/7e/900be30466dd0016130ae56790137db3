@@ -23,7 +23,5 @@ public class MongoConnectionPropertiesLoader {
 				e.printStackTrace();
 			}
 		}
-		System.setProperty("mongo-host", host);
-		System.setProperty("mongo-port", String.format("%d", port));
 	}
 }
