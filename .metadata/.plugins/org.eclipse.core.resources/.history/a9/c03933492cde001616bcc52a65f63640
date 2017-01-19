@@ -1,0 +1,32 @@
+package com.letattung.hexagonal.eventlog;
+
+import com.letattung.hexagonal.domain.PlayerDetails;
+
+public class StdOutEventLog implements LotteryEventLog{
+
+	@Override
+	public void ticketSubmitted(PlayerDetails details) {
+		
+	}
+
+	@Override
+	public void ticketSubmitError(PlayerDetails details) {
+	
+	}
+
+	@Override
+	public void ticketDidNotWin(PlayerDetails details) {
+		
+	}
+
+	@Override
+	public void ticketWon(PlayerDetails details, int prizeAmount) {
+	
+	}
+
+	@Override
+	public void prizeError(PlayerDetails details, int prizeAmount) {
+	
+	}
+
+}
