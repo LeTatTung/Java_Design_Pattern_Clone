@@ -1,5 +1,0 @@
-package com.letattung.datamapper;
-
-public interface StudentDataMapper {
-
-}
