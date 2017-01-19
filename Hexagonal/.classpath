@@ -7,5 +7,6 @@
 	<classpathentry kind="lib" path="/home/letattung/Downloads/slf4j-1.7.22/jcl-over-slf4j-1.7.22.jar"/>
 	<classpathentry kind="lib" path="/home/letattung/Downloads/slf4j-1.7.22/slf4j-api-1.7.22.jar"/>
 	<classpathentry kind="lib" path="/home/letattung/Downloads/slf4j-1.7.22/slf4j-simple-1.7.22.jar"/>
+	<classpathentry kind="lib" path="/home/letattung/Downloads/com.google.inject_2.0.0.v201105231817.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
