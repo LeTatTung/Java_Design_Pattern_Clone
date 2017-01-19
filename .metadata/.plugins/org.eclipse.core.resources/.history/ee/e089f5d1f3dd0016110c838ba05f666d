@@ -1,0 +1,108 @@
+package com.letattung.hexagonal.database;
+
+import java.util.Map;
+import java.util.Optional;
+
+import org.bson.Document;
+
+import com.letattung.hexagonal.domain.LotteryTicket;
+import com.letattung.hexagonal.domain.LotteryTicketId;
+import com.mongodb.MongoClient;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoDatabase;
+
+public class MongoTicketRepository implements LotteryTicketRepository{
+
+	private static final String DEFAULT_DB = "lotteryDB";
+	private static final String DEFAULT_TICKETS_COLLECTION = "lotterytickets";
+	private static final String DEFAULT_COUNTERS_COLLECTION = "counters";
+	
+	private MongoClient mongoClient;
+	private MongoDatabase database;
+	private MongoCollection<Document> ticketsCollection;
+	private MongoCollection<Document> countersCollection;
+	
+	public MongoTicketRepository(){
+		connect();
+	}
+	
+	public MongoTicketRepository(String dbName, String ticketsCollectionName, String countersCollectionName) {
+		connect(dbName, ticketsCollectionName, countersCollectionName);
+	}
+	
+	public void connect(){
+		connect(DEFAULT_DB, DEFAULT_TICKETS_COLLECTION, DEFAULT_COUNTERS_COLLECTION);
+	}
+	
+	public void connect(String dbName, String ticketsCollectionName, String countersCollectionName){
+		
+		if (mongoClient != null){
+			mongoClient.close();
+		}
+		mongoClient = new MongoClient(System.getProperty("mongo-host"), 
+				Integer.parseInt(System.getProperty("mongo-port")));
+		database = mongoClient.getDatabase(dbName);
+		ticketsCollection = database.getCollection(ticketsCollectionName);
+		countersCollection = database.getCollection(countersCollectionName);
+		if (countersCollection.count() < 0){
+			initCounters();
+		}
+	}
+	
+	private void initCounters(){
+		
+		Document document = new Document("_id","ticketId").append("seq", 1);
+		countersCollection.insertOne(document);
+	}
+	
+	public int getNextId(){
+		
+		Document find = new Document("_id", "ticketId");
+		Document increase = new Document("seq", 1);
+		Document update = new Document("$inc", increase);
+		Document result = countersCollection.findOneAndUpdate(find, update);
+		return result.getInteger("seq");
+		
+	}
+	
+	public MongoClient getMongoClient() {
+		return mongoClient;
+	}
+
+	public MongoDatabase getDatabase() {
+		return database;
+	}
+
+	public MongoCollection<Document> getTicketsCollection() {
+		return ticketsCollection;
+	}
+
+	public MongoCollection<Document> getCountersCollection() {
+		return countersCollection;
+	}
+
+	@Override
+	public Optional<LotteryTicket> findById(LotteryTicketId id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Optional<LotteryTicketId> save(LotteryTicket ticket) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Map<LotteryTicketId, LotteryTicket> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteAll() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
