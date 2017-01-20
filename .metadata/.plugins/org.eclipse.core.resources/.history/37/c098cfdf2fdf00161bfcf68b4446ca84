@@ -1,0 +1,22 @@
+package com.letattung.modelviewpresenter;
+
+public interface FileSelectorView {
+
+	void open();
+	
+	void close();
+	
+	boolean isOpened();
+	
+	void setPresenter(FileSelectorPresenter presenter);
+	
+	FileSelectorPresenter getPresenter();
+	
+	void setFileName(String name);
+	
+	String getFileName();
+	
+	void showMessage(String message);
+	
+	void displayData(String data);
+}

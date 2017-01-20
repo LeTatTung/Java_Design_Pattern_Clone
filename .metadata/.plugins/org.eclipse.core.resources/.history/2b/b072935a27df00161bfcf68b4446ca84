@@ -1,0 +1,12 @@
+package com.letattung.modelviewpresenter;
+
+public interface FileSelectorView {
+
+	void open();
+	
+	void close();
+	
+	boolean isOpened();
+	
+	void setPresenter(FileSelectorPresenter presenter);
+}
