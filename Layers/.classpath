@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="/home/letattung/Downloads/org.springframework.data.core_1.3.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/letattung/Downloads/javax.persistence.jar"/>
+	<classpathentry kind="lib" path="/home/letattung/Downloads/org.springframework.transaction_3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/letattung/Downloads/org.springframework.context.jar"/>
+	<classpathentry kind="lib" path="/home/letattung/Downloads/slf4j-1.7.22/jcl-over-slf4j-1.7.22.jar"/>
+	<classpathentry kind="lib" path="/home/letattung/Downloads/slf4j-1.7.22/slf4j-api-1.7.22.jar"/>
+	<classpathentry kind="lib" path="/home/letattung/Downloads/slf4j-1.7.22/slf4j-simple-1.7.22.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

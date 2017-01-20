@@ -1,0 +1,29 @@
+package com.letattung.layers;
+
+import java.util.Set;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
+
+@Entity
+public class Cake {
+
+	@Id
+	@GeneratedValue
+	private Long id;
+	
+	@OneToOne(cascade = CascadeType.REMOVE)
+	private CakeTopping topping;
+	
+	@OneToMany(cascade = CascadeType.REMOVE, fetch = FetchType.EAGER)
+	private Set<CakeLayer> layers;
+	
+	public Cake() {
+		// TODO Auto-generated constructor stub
+	}
+}

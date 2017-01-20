@@ -1,0 +1,17 @@
+package com.letattung.layers;
+
+import java.util.Optional;
+
+public class CakeToppingInfo {
+
+	private final Optional<Long> id;
+	private final String name;
+	private final int calories;
+	
+	public CakeToppingInfo(Long id, String name, int calories) {
+		
+		this.id = Optional.of(id);
+		this.name = name;
+		this.calories = calories;
+	}
+}
