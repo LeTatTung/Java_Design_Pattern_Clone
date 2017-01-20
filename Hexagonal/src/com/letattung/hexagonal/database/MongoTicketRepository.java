@@ -1,3 +1,7 @@
+/*
+ * hoc theo java design pattern cua iluwatar
+ * https://github.com/iluwatar/java-design-patterns/tree/master/hexagonal
+ */
 package com.letattung.hexagonal.database;
 
 import java.util.ArrayList;
@@ -94,7 +98,7 @@ public class MongoTicketRepository implements LotteryTicketRepository{
 		ArrayList<Document> results = ticketsCollection.find(find).limit(1).into(new ArrayList<Document>());
 		if (results.size() > 0){
 			LotteryTicket lotteryTicket = docToTicket(results.get(0));
-			return Optional.of(results);
+			return Optional.of(lotteryTicket);
 		}else{
 			return Optional.empty();
 		}
@@ -108,11 +112,11 @@ public class MongoTicketRepository implements LotteryTicketRepository{
 		
 		document.put("email", ticket.getPlayerDetails().getEmail());
 	    document.put("bank", ticket.getPlayerDetails().getBankAccount());
-	    document.put("phone", ticket.getPlayerDetails().getPhoneNumber());
+	    document.put("phone", ticket.getPlayerDetails().getPhone());
 	    document.put("numbers", ticket.getNumbers().getNumbersAsString());
 	    
 	    ticketsCollection.insertOne(document);
-	    return Optional.of(new LotteryTicket(ticketId));
+	    return Optional.of(new LotteryTicketId(ticketId));
 	}
 
 	@Override
@@ -142,6 +146,6 @@ public class MongoTicketRepository implements LotteryTicketRepository{
 			numbers.add(num);
 		}
 		LotteryNumbers lotteryNumbers = LotteryNumbers.create(numbers);
-		return new LotteryTicket(new LotteryTicketId(doc.getInteger("ticketId")), playerDetails, lotteryNumbers);
+		return new LotteryTicket(new LotteryTicketId(document.getInteger("ticketId")), playerDetails, lotteryNumbers);
 	}
 }
