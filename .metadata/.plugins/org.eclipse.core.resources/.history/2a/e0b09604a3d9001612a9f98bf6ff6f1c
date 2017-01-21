@@ -1,6 +1,0 @@
-package com.letattung.event.aggregator;
-
-public interface EventObserver {
-
-	void onEvent(Event e);
-}
