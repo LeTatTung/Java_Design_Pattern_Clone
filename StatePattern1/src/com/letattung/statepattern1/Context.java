@@ -7,7 +7,6 @@ public class Context {
 	private State state;
 	
 	public Context() {
-		// TODO Auto-generated constructor stub
 		state = null;
 	}
 	

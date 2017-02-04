@@ -5,8 +5,8 @@ package com.letattung.bridgepattern1;
 public class Circle extends Shape{
 
 	private int x, y, radius;
+	
 	public Circle(int x, int y, int radius, DrawAPI drawAPI) {
-		// TODO Auto-generated constructor stub
 		super(drawAPI);
 		this.x = x;
 		this.y = y;
@@ -15,7 +15,6 @@ public class Circle extends Shape{
 	
 	@Override
 	public void draw() {
-		// TODO Auto-generated method stub
 		drawAPI.drawCircle(radius, x, y);
 	}
 

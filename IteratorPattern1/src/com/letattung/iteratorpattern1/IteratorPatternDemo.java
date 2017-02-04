@@ -1,4 +1,4 @@
-// hoc theo java desin pattern tutorial
+// hoc theo java design pattern tutorial
 
 package com.letattung.iteratorpattern1;
 

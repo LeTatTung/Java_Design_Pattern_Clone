@@ -1,9 +1,0 @@
-package com.letattung.featuretoggle.pattern;
-
-import com.letattung.featuretoggle.user.User;
-
-public interface Service {
-
-	String getWelcomeMessage(User user);
-	boolean isEnhanced();
-}

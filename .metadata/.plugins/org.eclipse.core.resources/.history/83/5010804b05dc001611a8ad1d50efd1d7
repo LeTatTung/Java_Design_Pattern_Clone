@@ -1,5 +1,0 @@
-package com.letattung.fluentinterface.simple;
-
-public class SimpleFluentIterable<E> {
-
-}

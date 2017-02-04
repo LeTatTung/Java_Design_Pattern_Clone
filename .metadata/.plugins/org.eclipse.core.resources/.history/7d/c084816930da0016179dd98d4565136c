@@ -1,6 +1,0 @@
-package com.letattung.event.asynchronous;
-
-public interface ThreadCompleteListener {
-
-	void completedEventHandler(final int eventId);
-}

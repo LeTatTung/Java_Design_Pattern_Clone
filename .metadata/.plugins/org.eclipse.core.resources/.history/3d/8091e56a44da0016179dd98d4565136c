@@ -1,5 +1,0 @@
-package com.letattung.event.asynchronous;
-
-public class EventManager {
-
-}

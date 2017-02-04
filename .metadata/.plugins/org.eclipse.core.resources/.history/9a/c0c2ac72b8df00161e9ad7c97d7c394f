@@ -1,5 +1,0 @@
-package com.letattung.src;
-
-public class Validator<T> {
-
-}

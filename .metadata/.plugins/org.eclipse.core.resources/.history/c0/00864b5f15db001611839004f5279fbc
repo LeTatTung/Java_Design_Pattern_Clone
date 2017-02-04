@@ -1,9 +1,0 @@
-package com.letattung.flux.view;
-
-import com.letattung.flux.store.Store;
-
-public interface View {
-
-	void storeChanged(Store store);
-	void render();
-}

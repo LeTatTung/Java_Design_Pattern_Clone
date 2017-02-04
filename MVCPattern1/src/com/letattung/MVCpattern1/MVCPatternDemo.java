@@ -15,6 +15,7 @@ public class MVCPatternDemo {
 		controller.setStudentRollNo("10");
 		controller.updateView();
 	}
+	
 	private static Student retriveStudentFromDatabase(){
 		Student student = new Student();
 		

@@ -1,5 +1,0 @@
-package com.letattung.featuretoggle.pattern.tieredversion;
-
-public class TieredFeatureToggleVersion {
-
-}

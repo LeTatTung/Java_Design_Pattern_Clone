@@ -1,9 +1,0 @@
-package com.letattung.halfsynchalfasync;
-
-import java.util.concurrent.Callable;
-
-public interface AsyncTask<O> extends Callable<O>{
-
-	void onPreCall();
-	
-}

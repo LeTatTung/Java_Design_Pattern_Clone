@@ -1,5 +1,0 @@
-package com.letattung.eventdrivenarchitecture.framework;
-
-public interface Event {
-	Class<? extends Event> getType();
-}

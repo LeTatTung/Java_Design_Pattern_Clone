@@ -1,5 +1,0 @@
-package com.letattung.layers;
-
-public interface View {
-
-}

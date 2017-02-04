@@ -1,5 +1,0 @@
-package com.letattung.flux.action;
-
-public enum MenuItem {
-	HOME("Home"), PRODUCTS("Products"), COMPANY("Company");
-}
