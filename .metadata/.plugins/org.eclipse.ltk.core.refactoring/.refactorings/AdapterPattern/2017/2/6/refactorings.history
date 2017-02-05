@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.letattung.adapterpattern1&apos; to &apos;com.letattung.adapterpattern&apos;&#x0A;- Original project: &apos;AdapterPattern&apos;&#x0A;- Original element: &apos;AdapterPattern/src/com.letattung.adapterpattern1&apos;&#x0A;- Renamed element: &apos;AdapterPattern/src/com.letattung.adapterpattern&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.letattung.adapterpattern1&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.letattung.adapterpattern1" name="com.letattung.adapterpattern" qualified="false" references="true" stamp="1486259547564" textual="false" version="1.0"/>
+</session>
