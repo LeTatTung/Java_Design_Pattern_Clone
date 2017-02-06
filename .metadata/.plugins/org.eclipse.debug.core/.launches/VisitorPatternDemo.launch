@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/VisitorPattern1/src/com/letattung/visitorpattern1/VisitorPatternDemo.java"/>
+<listEntry value="/VisitorPattern/src/com/letattung/visitorpattern/VisitorPatternDemo.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.letattung.visitorpattern1.VisitorPatternDemo"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="VisitorPattern1"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.letattung.visitorpattern.VisitorPatternDemo"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="VisitorPattern"/>
 </launchConfiguration>

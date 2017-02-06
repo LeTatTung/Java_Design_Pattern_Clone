@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/CommandPattern1/src/com/letattung/commandpattern1/CommandPatternDemo.java"/>
+<listEntry value="/CommandPattern/src/com/letattung/commandpattern/CommandPatternDemo.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.letattung.commandpattern1.CommandPatternDemo"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="CommandPattern1"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.letattung.commandpattern.CommandPatternDemo"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="CommandPattern"/>
 </launchConfiguration>

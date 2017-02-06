@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/TemplatePattern1/src/com/letattung/templatepattern1/TemplatePatternDemo.java"/>
+<listEntry value="/TemplatePattern/src/com/letattung/templatepattern/TemplatePatternDemo.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.letattung.templatepattern1.TemplatePatternDemo"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="TemplatePattern1"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.letattung.templatepattern.TemplatePatternDemo"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="TemplatePattern"/>
 </launchConfiguration>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/StatePattern1/src/com/letattung/statepattern1/StatePatternDemo.java"/>
+<listEntry value="/StatePattern/src/com/letattung/statepattern/StatePatternDemo.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.letattung.statepattern1.StatePatternDemo"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="StatePattern1"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.letattung.statepattern.StatePatternDemo"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="StatePattern"/>
 </launchConfiguration>

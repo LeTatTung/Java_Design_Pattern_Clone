@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/FilterPattern1/src/com/letattung/filterpattern1/CriteriaPatternDemo.java"/>
+<listEntry value="/FilterPattern/src/com/letattung/filterpattern/CriteriaPatternDemo.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.letattung.filterpattern1.CriteriaPatternDemo"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="FilterPattern1"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.letattung.filterpattern.CriteriaPatternDemo"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="FilterPattern"/>
 </launchConfiguration>
