@@ -1,0 +1,11 @@
+package com.letattung.objectmother;
+
+public class App {
+
+	public static void main(String [] args){
+		//test
+		King soberUnhappyKing = RoyaltyObjectMother.createSoberUnhappyKing();
+		Queen flirtyQueen = RoyaltyObjectMother.createFlirtyQueen();
+	    soberUnhappyKing.flirt(flirtyQueen);
+	}
+}
