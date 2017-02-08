@@ -1,0 +1,6 @@
+package com.letattung.poisonpill;
+
+public enum Headers {
+	
+	DATE, SENDER;
+}

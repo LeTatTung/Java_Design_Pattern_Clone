@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
-<fullyQualifiedTypeName name="org.apache.camel.CamelContext"/>
-<fullyQualifiedTypeName name="org.apache.camel.impl.DefaultCamelContext"/>
-<fullyQualifiedTypeName name="org.apache.camel.RoutesBuilder"/>
-<fullyQualifiedTypeName name="javax.print.attribute.standard.PresentationDirection"/>
-<fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="java.io.Reader"/>
 <fullyQualifiedTypeName name="java.io.FileReader"/>
 <fullyQualifiedTypeName name="java.io.File"/>
@@ -46,18 +40,24 @@
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="com.letattung.mute.Resource"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
-<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="org.slf4j.Logger"/>
-<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="com.letattung.mutex.Lock"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
-<fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="com.letattung.mutex.Mutex"/>
 <fullyQualifiedTypeName name="com.letattung.mutex.Jar"/>
 <fullyQualifiedTypeName name="com.letattung.mutex.Thief"/>
 <fullyQualifiedTypeName name="com.letattung.objectmother.Royalty"/>
 <fullyQualifiedTypeName name="com.letattung.objectmother.King"/>
 <fullyQualifiedTypeName name="com.letattung.objectmother.Queen"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="com.letattung.objectpool.Oliphaunt"/>
+<fullyQualifiedTypeName name="java.lang.Long"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="com.letattung.objectpool.ObjectPool"/>
+<fullyQualifiedTypeName name="com.letattung.objectpool.OliphauntPool"/>
 </qualifiedTypeNameHistroy>

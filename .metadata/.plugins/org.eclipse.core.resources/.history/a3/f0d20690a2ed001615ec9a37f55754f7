@@ -1,0 +1,5 @@
+package com.letattung.poisonpill;
+
+public interface MessageQueue extends MqPublishPoint, MqSubscribePoint{
+
+}

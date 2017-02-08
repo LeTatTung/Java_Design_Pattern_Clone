@@ -1,0 +1,16 @@
+package com.letattung.poisonpill;
+
+public interface Message {
+
+	Message POISON_PILL = new Message() {
+		
+		@Override
+		public void addHeader(Headers header, String value){
+			throw poison();
+		}
+		
+		private RuntimeException poison(){
+			return new UnsupportedOperationException("Poison");
+		}
+	};
+}
