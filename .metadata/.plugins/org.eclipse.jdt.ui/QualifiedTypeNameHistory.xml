@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.letattung.src.Validator"/>
-<fullyQualifiedTypeName name="java.util.function.Predicate"/>
-<fullyQualifiedTypeName name="java.util.function.Function"/>
-<fullyQualifiedTypeName name="com.letattung.src.User"/>
 <fullyQualifiedTypeName name="java.util.Objects"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
@@ -48,8 +44,6 @@
 <fullyQualifiedTypeName name="java.util.concurrent.ArrayBlockingQueue"/>
 <fullyQualifiedTypeName name="com.letattung.poisonpill.SimpleMessage"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="org.slf4j.Logger"/>
-<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
 <fullyQualifiedTypeName name="com.letattung.poisonpill.MqSubscribePoint"/>
 <fullyQualifiedTypeName name="com.letattung.poisonpill.Message"/>
 <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
@@ -60,4 +54,10 @@
 <fullyQualifiedTypeName name="com.letattung.poisonpill.Consumer"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="com.letattung.pcd.ImmutableStew"/>
+<fullyQualifiedTypeName name="com.letattung.pcd.StewData"/>
+<fullyQualifiedTypeName name="com.letattung.pcd.Stew"/>
 </qualifiedTypeNameHistroy>
