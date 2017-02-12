@@ -1,0 +1,6 @@
+package com.letattung.qll;
+
+public interface Task {
+
+	void submit(Message message);
+}
