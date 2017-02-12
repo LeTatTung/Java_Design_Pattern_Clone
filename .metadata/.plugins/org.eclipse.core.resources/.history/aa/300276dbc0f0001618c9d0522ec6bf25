@@ -1,0 +1,63 @@
+package com.letattung.property;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Character implements Prototype{
+
+	private final Prototype prototype;
+	private final Map<Stats, Integer> prototies = new HashMap<>();
+	
+	private String name;
+	private Type type;
+	
+	public Character() {
+		this.prototype = new Prototype() {
+			
+			@Override
+			public void set(Stats stat, Integer val) {
+			}
+			
+			@Override
+			public void remove(Stats stat) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public boolean has(Stats stat) {
+				// TODO Auto-generated method stub
+				return false;
+			}
+			
+			@Override
+			public Integer get(Stats stat) {
+				return null;
+			}
+		};
+	}
+	@Override
+	public Integer get(Stats stat) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean has(Stats stat) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void set(Stats stat, Integer val) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void remove(Stats stat) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
