@@ -1,6 +1,0 @@
-package com.letattung.poisonpill;
-
-public interface MqPublishPoint {
-
-	void put(Message msg) throws InterruptedException;
-}

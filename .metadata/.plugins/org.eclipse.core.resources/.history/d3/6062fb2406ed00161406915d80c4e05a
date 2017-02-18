@@ -1,9 +1,0 @@
-package com.letattung.objectmother;
-
-public interface Royalty {
-
-	void makeDrunk();
-	void makeSober();
-	void makeHappy();
-	void makeUnHappy();
-}

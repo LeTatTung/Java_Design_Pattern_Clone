@@ -1,6 +1,0 @@
-package com.letattung.poisonpill;
-
-public interface MqSubscribePoint {
-
-	Message take() throws InterruptedException;
-}

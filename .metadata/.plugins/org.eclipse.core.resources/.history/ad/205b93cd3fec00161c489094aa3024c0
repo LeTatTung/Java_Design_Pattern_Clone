@@ -1,7 +1,0 @@
-package com.letattung.mute;
-
-@FunctionalInterface
-public interface CheckedRunnable {
-
-	void run() throws Exception;
-}
