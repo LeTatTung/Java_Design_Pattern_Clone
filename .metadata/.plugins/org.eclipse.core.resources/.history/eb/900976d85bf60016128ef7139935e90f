@@ -1,0 +1,5 @@
+package com.letattung.reactor.app;
+
+public class LoggingHandler {
+
+}

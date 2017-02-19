@@ -1,0 +1,27 @@
+package com.letattung.reactor.app;
+
+import java.io.IOException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class AppClient {
+
+	private static final Logger LOGGER = LoggerFactory.getLogger(AppClient.class);
+	private final ExecutorService service = Executors.newFixedThreadPool(4);
+	
+	
+	public static void main(String [] args) throws IOException{
+		AppClient appClient = new AppClient();
+		appClient.start();
+	}
+	
+	public void start() throws IOException{
+		service.execute(new TcpLoggingClient("Client 1", 6666));
+		service.execute(new TcpLoggingClient("Client 2", 6667));
+	    service.execute(new UdpLoggingClient("Client 3", 6668));
+	    service.execute(new UdpLoggingClient("Client 4", 6668));
+	}
+}

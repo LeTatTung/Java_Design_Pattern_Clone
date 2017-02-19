@@ -1,6 +1,0 @@
-package com.letattung.property;
-
-public enum Type {
-
-	WARRIOR, MAGE, ROGUE
-}
