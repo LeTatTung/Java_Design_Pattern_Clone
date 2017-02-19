@@ -32,7 +32,7 @@ public abstract class AbstractNioChannel {
 	
 	public abstract void bind() throws IOException;
 	
-	public abstract Object read() throws IOException;
+	public abstract Object read(SelectionKey key) throws IOException;
 	
 	public ChannelHandler getHandler(){
 		return handler;

@@ -1,0 +1,11 @@
+package com.letattung.reactor.framework;
+
+import java.net.SocketAddress;
+import java.nio.ByteBuffer;
+
+public class DatagramPacket {
+
+	private final SocketAddress sender;
+	private final ByteBuffer data;
+	private final SocketAddress receiver;
+}

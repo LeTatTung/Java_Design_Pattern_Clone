@@ -1,5 +1,8 @@
 package com.letattung.reactor.framework;
 
-public class ChannelHandler {
+import java.nio.channels.SelectionKey;
 
+public interface ChannelHandler {
+
+	void handleChannelRead(AbstractNioChannel channel, Object readObject, SelectionKey key);
 }

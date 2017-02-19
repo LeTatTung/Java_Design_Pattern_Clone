@@ -104,7 +104,7 @@ public class NioReactor {
 	
 	private void onChannelReadable(SelectionKey key){
 		try{
-			Object readObject = ((AbstractNioChannel)key.attachment()).read();
+			Object readObject = ((AbstractNioChannel)key.attachment()).read(key);
 			dispatchReadEvent(key, readObject);
 		}catch(IOException e){
 			try{
