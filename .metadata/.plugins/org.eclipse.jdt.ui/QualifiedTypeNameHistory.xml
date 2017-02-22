@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.nio.channels.DatagramChannel"/>
-<fullyQualifiedTypeName name="java.net.DatagramPacket"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
-<fullyQualifiedTypeName name="java.nio.channels.SocketChannel"/>
-<fullyQualifiedTypeName name="java.nio.channels.ServerSocketChannel"/>
 <fullyQualifiedTypeName name="com.letattung.reactor.app.LoggingHandler"/>
 <fullyQualifiedTypeName name="java.nio.channels.SelectionKey"/>
 <fullyQualifiedTypeName name="java.nio.ByteBuffer"/>
-<fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
 <fullyQualifiedTypeName name="com.letattung.reactor.app.AppClient"/>
-<fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="com.letattung.reactor.app.AppClient.TcpLoggingClient"/>
 <fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="java.net.Socket"/>
 <fullyQualifiedTypeName name="java.io.OutputStream"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
-<fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
 <fullyQualifiedTypeName name="java.net.UnknownHostException"/>
 <fullyQualifiedTypeName name="java.net.InetSocketAddress"/>
 <fullyQualifiedTypeName name="java.net.InetAddress"/>
@@ -41,7 +33,6 @@
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock"/>
 <fullyQualifiedTypeName name="com.letattung.rwl.ReaderWriterLock.WriteLock"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="java.lang.AssertionError"/>
 <fullyQualifiedTypeName name="java.io.UncheckedIOException"/>
 <fullyQualifiedTypeName name="java.lang.UnsupportedOperationException"/>
@@ -53,11 +44,20 @@
 <fullyQualifiedTypeName name="com.letattung.rwl.ReaderWriterLock"/>
 <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
 <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
-<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
 <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
-<fullyQualifiedTypeName name="org.slf4j.Logger"/>
-<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
 <fullyQualifiedTypeName name="com.letattung.rai.SlidingDoor"/>
 <fullyQualifiedTypeName name="com.letattung.rai.TreasureChest"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
+<fullyQualifiedTypeName name="com.letattung.valueobject.HeroStat"/>
+<fullyQualifiedTypeName name="com.letattung.twin.GameItem"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="com.letattung.twin.BallThread"/>
+<fullyQualifiedTypeName name="com.letattung.twin.BallItem"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+<fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,6 @@
+package com.letattung.twin;
+
+public class App {
+
+	public void static void main(String [] args){}
+}
