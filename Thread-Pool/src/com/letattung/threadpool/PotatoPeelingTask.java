@@ -1,0 +1,19 @@
+/*
+ * hoc theo java design pattern cua iluwatar
+ * https://github.com/iluwatar/java-design-patterns/tree/master/thread-pool
+ */
+package com.letattung.threadpool;
+
+public class PotatoPeelingTask extends Task{
+
+	private static final int TIME_PER_POTATO = 200;
+	
+	public PotatoPeelingTask(int numPotatoes) {
+		super(numPotatoes * TIME_PER_POTATO);
+	}
+
+	@Override
+	public String toString(){
+		return String.format("%s %s", this.getClass().getSimpleName(), super.toString());
+	}
+}

@@ -1,0 +1,33 @@
+package com.letattung.threadpool;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class App {
+
+	private static final Logger LOGGER = LoggerFactory.getLogger(App.class);
+	
+	public static void main(String [] args){
+		LOGGER.info("Program started");
+		
+		List<Task> tasks = new ArrayList<>();
+	    tasks.add(new PotatoPeelingTask(3));
+	    tasks.add(new PotatoPeelingTask(6));
+	    tasks.add(new CoffeeMakingTask(2));
+	    tasks.add(new CoffeeMakingTask(6));
+	    tasks.add(new PotatoPeelingTask(4));
+	    tasks.add(new CoffeeMakingTask(2));
+	    tasks.add(new PotatoPeelingTask(4));
+	    tasks.add(new CoffeeMakingTask(9));
+	    tasks.add(new PotatoPeelingTask(3));
+	    tasks.add(new CoffeeMakingTask(2));
+	    tasks.add(new PotatoPeelingTask(4));
+	    tasks.add(new CoffeeMakingTask(2));
+	    tasks.add(new CoffeeMakingTask(7));
+	    tasks.add(new PotatoPeelingTask(4));
+	    tasks.add(new PotatoPeelingTask(5));
+	}
+}
