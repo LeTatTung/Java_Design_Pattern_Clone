@@ -47,7 +47,6 @@
 <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
 <fullyQualifiedTypeName name="com.letattung.rai.SlidingDoor"/>
 <fullyQualifiedTypeName name="com.letattung.rai.TreasureChest"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
@@ -55,9 +54,10 @@
 <fullyQualifiedTypeName name="com.letattung.twin.GameItem"/>
 <fullyQualifiedTypeName name="org.slf4j.Logger"/>
 <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
-<fullyQualifiedTypeName name="com.letattung.twin.BallThread"/>
-<fullyQualifiedTypeName name="com.letattung.twin.BallItem"/>
-<fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
 <fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
+<fullyQualifiedTypeName name="com.letattung.twin.BallItem"/>
+<fullyQualifiedTypeName name="com.letattung.twin.BallThread"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
 </qualifiedTypeNameHistroy>

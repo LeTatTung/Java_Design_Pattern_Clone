@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;readObject&apos; from expression &apos;(Map&lt;String,String&gt;)objIn.readObject()&apos;&#x0A;- Original project: &apos;Tolerant-Reader&apos;&#x0A;- Variable name: &apos;readObject&apos;&#x0A;- Destination method: &apos;com.letattung.tolerantreader.RainbowFishSerializer.readV1()&apos;&#x0A;- Variable expression: &apos;(Map&lt;String,String&gt;)objIn.readObject()&apos;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;readObject&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.letattung.tolerantreader{RainbowFishSerializer.java" name="readObject" replace="true" selection="1998 40" stamp="1487837381260" version="1.0"/>
+</session>
