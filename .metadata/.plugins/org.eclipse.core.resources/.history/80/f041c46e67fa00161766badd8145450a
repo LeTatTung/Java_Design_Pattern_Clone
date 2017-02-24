@@ -1,0 +1,5 @@
+package com.letattung.specification.creature;
+
+public class Troll {
+
+}
