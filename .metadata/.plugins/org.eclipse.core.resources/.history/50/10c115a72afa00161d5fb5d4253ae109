@@ -1,0 +1,41 @@
+package com.letattung.stepbuilder;
+
+public final class CharacterStepBuilder {
+	
+	private CharacterStepBuilder() {}
+	
+	public static NameStep newBuilder(){
+		return new CharacterSteps();
+	}
+	
+	public interface NameStep{
+		ClassStep name(String name);
+	}
+	
+	public interface ClassStep{
+		WeaponStep fighterClass(String fighterClass);
+		
+		SpellStep wizardClass(String wizardClass);
+	}
+	
+	public interface WeaponStep{
+		AbilityStep withWeapon(String weapon);
+		
+		BuildStep noWeapon();
+	}
+	
+	public interface SpellStep{
+		AbilityStep withSpell(String spell);
+		
+		BuildStep noSpell();
+	}
+	
+	
+	public interface AbilityStep{
+		AbilityStep withAbility(String ability);
+		
+		BuildStep noMoreAbilities();
+		
+		BuildStep noAbilities();
+	}
+}

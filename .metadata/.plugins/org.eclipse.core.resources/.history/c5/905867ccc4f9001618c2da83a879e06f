@@ -1,0 +1,7 @@
+package com.letattung.stepbuilder;
+
+public final class CharacterStepBuilder {
+	
+	CharacterStepBuilder() {
+	}
+}

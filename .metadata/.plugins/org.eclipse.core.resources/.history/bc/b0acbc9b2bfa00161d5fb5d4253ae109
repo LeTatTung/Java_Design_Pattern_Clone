@@ -1,0 +1,131 @@
+package com.letattung.stepbuilder;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public final class CharacterStepBuilder {
+	
+	private CharacterStepBuilder() {}
+	
+	public static NameStep newBuilder(){
+		return new CharacterSteps();
+	}
+	
+	public interface NameStep{
+		ClassStep name(String name);
+	}
+	
+	public interface ClassStep{
+		WeaponStep fighterClass(String fighterClass);
+		
+		SpellStep wizardClass(String wizardClass);
+	}
+	
+	public interface WeaponStep{
+		AbilityStep withWeapon(String weapon);
+		
+		BuildStep noWeapon();
+	}
+	
+	public interface SpellStep{
+		AbilityStep withSpell(String spell);
+		
+		BuildStep noSpell();
+	}
+	
+	
+	public interface AbilityStep{
+		AbilityStep withAbility(String ability);
+		
+		BuildStep noMoreAbilities();
+		
+		BuildStep noAbilities();
+	}
+	
+	public interface BuildStep{
+		Character build();
+	}
+	
+	private static class CharacterSteps implements NameStep, ClassStep, WeaponStep, SpellStep, 
+		AbilityStep, BuildStep{
+		
+		private String name;
+		private String fighterClass;
+		private String wizardClass;
+		private String weapon;
+		private String spell;
+		private List<String> abilities = new ArrayList<>();
+		
+		@Override
+		public Character build() {
+			Character character = new Character(name);
+			if (fighterClass != null){
+				character.setFighterClass(fighterClass);
+			}else {
+				character.setWizardClass(wizardClass);
+			}
+			if (weapon != null){
+				character.setWeapon(weapon);
+			}else {
+				character.setSpell(spell);
+			}
+			if (!abilities.isEmpty()){
+				character.setAbilities(abilities);
+			}
+			
+			return character;
+		}
+		
+		@Override
+		public AbilityStep withAbility(String ability) {
+			this.abilities.add(ability);
+			return this;
+		}
+		
+		@Override
+		public BuildStep noMoreAbilities() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+		@Override
+		public BuildStep noAbilities() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+		@Override
+		public AbilityStep withSpell(String spell) {
+			// TODO Auto-generated method stub
+			return null;
+		}
+		@Override
+		public BuildStep noSpell() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+		@Override
+		public AbilityStep withWeapon(String weapon) {
+			// TODO Auto-generated method stub
+			return null;
+		}
+		@Override
+		public BuildStep noWeapon() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+		@Override
+		public WeaponStep fighterClass(String fighterClass) {
+			// TODO Auto-generated method stub
+			return null;
+		}
+		@Override
+		public SpellStep wizardClass(String wizardClass) {
+			// TODO Auto-generated method stub
+			return null;
+		}
+		@Override
+		public ClassStep name(String name) {
+			// TODO Auto-generated method stub
+			return null;
+		}
+	}
+}
