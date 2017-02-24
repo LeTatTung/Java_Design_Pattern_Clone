@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.letattung.rwl.Reader"/>
-<fullyQualifiedTypeName name="java.util.concurrent.locks.ReadWriteLock"/>
-<fullyQualifiedTypeName name="java.util.Set"/>
-<fullyQualifiedTypeName name="java.util.HashSet"/>
-<fullyQualifiedTypeName name="java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock"/>
-<fullyQualifiedTypeName name="com.letattung.rwl.ReaderWriterLock.WriteLock"/>
-<fullyQualifiedTypeName name="java.lang.AssertionError"/>
-<fullyQualifiedTypeName name="java.io.UncheckedIOException"/>
-<fullyQualifiedTypeName name="java.lang.UnsupportedOperationException"/>
-<fullyQualifiedTypeName name="com.letattung.rwl.Writer"/>
 <fullyQualifiedTypeName name="java.util.concurrent.locks.Lock"/>
 <fullyQualifiedTypeName name="com.letattung.rwl.ReaderWriterLock"/>
 <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
@@ -45,7 +35,6 @@
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
 <fullyQualifiedTypeName name="com.letattung.threadpool.Worker"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="com.letattung.stepbuilder.CharacterStepBuilder.NameStep"/>
@@ -60,4 +49,15 @@
 <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
 <fullyQualifiedTypeName name="com.letattung.stepbuilder.Character"/>
 <fullyQualifiedTypeName name="com.letattung.stepbuilder.CharacterStepBuilder"/>
+<fullyQualifiedTypeName name="com.letattung.specification.creature.Creature"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="com.letattung.specification.creature.Dragon"/>
+<fullyQualifiedTypeName name="com.letattung.specification.creature.Goblin"/>
+<fullyQualifiedTypeName name="com.letattung.specification.creature.KillerBee"/>
+<fullyQualifiedTypeName name="com.letattung.specification.creature.Octopus"/>
+<fullyQualifiedTypeName name="com.letattung.specification.creature.Shark"/>
+<fullyQualifiedTypeName name="com.letattung.specification.creature.AbstractCreature"/>
+<fullyQualifiedTypeName name="com.letattung.specification.property.Color"/>
+<fullyQualifiedTypeName name="com.letattung.specification.property.Movement"/>
+<fullyQualifiedTypeName name="com.letattung.specification.property.Size"/>
 </qualifiedTypeNameHistroy>
