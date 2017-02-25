@@ -1,0 +1,40 @@
+package com.letattung.servant;
+
+public class King implements Royalty{
+
+	public boolean isDrunk;
+	private boolean isHungry = true;
+	private boolean isHappy;
+	private boolean complimentReceived;
+	
+	@Override
+	public void getFed() {
+		isHungry = false;
+	}
+
+	@Override
+	public void getDrink() {
+		isDrunk = true;
+	}
+
+	@Override
+	public void changeMood() {
+		if (!isHungry && isDrunk){
+			isHappy = true;
+		}
+	}
+
+	@Override
+	public void receiveCompliments() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean getMood() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	
+}
