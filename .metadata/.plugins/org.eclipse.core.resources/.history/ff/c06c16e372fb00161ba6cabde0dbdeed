@@ -1,0 +1,8 @@
+package com.letattung.semaphore;
+
+public class FruitShop {
+
+	private FruitBowl[] bowls = {new FruitBowl(), new FruitBowl(), new FruitBowl()};
+	
+	private boolean [] available = {true, true, true};
+}

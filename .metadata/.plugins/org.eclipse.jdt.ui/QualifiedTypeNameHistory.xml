@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
-<fullyQualifiedTypeName name="com.letattung.valueobject.HeroStat"/>
-<fullyQualifiedTypeName name="com.letattung.twin.GameItem"/>
-<fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
-<fullyQualifiedTypeName name="com.letattung.twin.BallItem"/>
-<fullyQualifiedTypeName name="com.letattung.twin.BallThread"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="java.io.Serializable"/>
 <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
@@ -19,7 +12,6 @@
 <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
 <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
 <fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicInteger"/>
-<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
 <fullyQualifiedTypeName name="com.letattung.threadpool.Task"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
 <fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
@@ -35,7 +27,6 @@
 <fullyQualifiedTypeName name="com.letattung.stepbuilder.CharacterStepBuilder.SpellStep"/>
 <fullyQualifiedTypeName name="com.letattung.stepbuilder.CharacterStepBuilder.AbilityStep"/>
 <fullyQualifiedTypeName name="com.letattung.stepbuilder.CharacterStepBuilder.BuildStep"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.letattung.stepbuilder.Character"/>
 <fullyQualifiedTypeName name="com.letattung.stepbuilder.CharacterStepBuilder"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
@@ -43,8 +34,6 @@
 <fullyQualifiedTypeName name="java.util.function.Predicate"/>
 <fullyQualifiedTypeName name="com.letattung.specification.selector.SizeSelector"/>
 <fullyQualifiedTypeName name="com.letattung.specification.property.Size"/>
-<fullyQualifiedTypeName name="org.slf4j.Logger"/>
-<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
 <fullyQualifiedTypeName name="com.letattung.specification.creature.KillerBee"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="com.letattung.specification.creature.Dragon"/>
@@ -52,7 +41,6 @@
 <fullyQualifiedTypeName name="com.letattung.specification.creature.Shark"/>
 <fullyQualifiedTypeName name="com.letattung.specification.creature.Troll"/>
 <fullyQualifiedTypeName name="com.letattung.specification.creature.Goblin"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.letattung.specification.creature.Creature"/>
 <fullyQualifiedTypeName name="com.letattung.specification.selector.MovementSelector"/>
 <fullyQualifiedTypeName name="com.letattung.specification.property.Movement"/>
@@ -60,4 +48,16 @@
 <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
 <fullyQualifiedTypeName name="com.letattung.specification.property.Color"/>
 <fullyQualifiedTypeName name="com.letattung.specification.selector.ColorSelector"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="com.letattung.servant.Queen"/>
+<fullyQualifiedTypeName name="com.letattung.servant.Royalty"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+<fullyQualifiedTypeName name="com.letattung.semaphore.Lock"/>
+<fullyQualifiedTypeName name="com.letattung.semaphore.Fruit.FruitType"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.letattung.semaphore.Fruit"/>
+<fullyQualifiedTypeName name="com.letattung.semaphore.FruitBowl"/>
+<fullyQualifiedTypeName name="com.letattung.semaphore.Semaphore"/>
 </qualifiedTypeNameHistroy>

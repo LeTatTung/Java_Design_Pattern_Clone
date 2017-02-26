@@ -1,0 +1,34 @@
+package com.letattung.semaphore;
+
+public class Semaphore implements Lock{
+
+	private final int licenses;
+	private int counter;
+	
+	public Semaphore(int licenses) {
+		this.licenses = licenses;
+		this.counter = licenses;
+	}
+	
+	public int getNumLicenses(){
+		return licenses;
+	}
+	
+	public int getAvailableLicenses(){
+		return counter;
+	}
+	
+	public synchronized void acquire() throws InterruptedException {
+		while (counter == 0){
+			wait();
+		}
+		counter = counter - 1;
+	}
+
+	@Override
+	public void release() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
