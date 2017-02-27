@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.io.Serializable"/>
-<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
@@ -48,16 +46,18 @@
 <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
 <fullyQualifiedTypeName name="com.letattung.specification.property.Color"/>
 <fullyQualifiedTypeName name="com.letattung.specification.selector.ColorSelector"/>
-<fullyQualifiedTypeName name="org.slf4j.Logger"/>
-<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
 <fullyQualifiedTypeName name="com.letattung.servant.Queen"/>
 <fullyQualifiedTypeName name="com.letattung.servant.Royalty"/>
-<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
 <fullyQualifiedTypeName name="com.letattung.semaphore.Lock"/>
-<fullyQualifiedTypeName name="com.letattung.semaphore.Fruit.FruitType"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.letattung.semaphore.Fruit"/>
-<fullyQualifiedTypeName name="com.letattung.semaphore.FruitBowl"/>
+<fullyQualifiedTypeName name="com.letattung.semaphore.Fruit.FruitType"/>
 <fullyQualifiedTypeName name="com.letattung.semaphore.Semaphore"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="com.letattung.semaphore.FruitBowl"/>
+<fullyQualifiedTypeName name="com.letattung.semaphore.FruitShop"/>
+<fullyQualifiedTypeName name="com.letattung.semaphore.Customer"/>
 </qualifiedTypeNameHistroy>
