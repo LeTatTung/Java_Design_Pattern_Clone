@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ChainOfResponsibilityPattern/etc/ChainofResponsibility.docx&apos; to &apos;ChainofResponsibility_Description.docx&apos;" description="Rename resource &apos;ChainofResponsibility.docx&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="etc/ChainofResponsibility.docx" name="ChainofResponsibility_Description.docx" stamp="1488300160672" updateReferences="true"/>
+</session>
